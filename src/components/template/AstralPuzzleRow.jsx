@@ -16,7 +16,7 @@ function AstralPuzzleRow({ prizes, drawnPrize, isHighlighted, showOdds }) {
               quality={prize.getPrizeDetails().quality}
             />
           </div>
-          <div>{showOdds && `${prize.probability}%`} </div>
+          {showOdds && <div>{`${prize.probability}%`}</div>}
         </div>
       ))}
     </div>
