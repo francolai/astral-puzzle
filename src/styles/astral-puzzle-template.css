@@ -1,0 +1,39 @@
+.astral-puzzle {
+  margin-bottom: 1rem;
+}
+
+.astral-puzzle-user-input {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  gap: 0.5rem;
+  margin: 1rem 0;
+  justify-items: center;
+  grid-template-areas:
+    '. buttons checkbox1'
+    '. . checkbox2';
+  width: 30rem;
+  margin: 0 auto;
+}
+.astral-puzzle-buttons {
+  grid-area: buttons;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.astral-puzzle-checkbox1 {
+  grid-area: checkbox1;
+  justify-self: start;
+}
+.astral-puzzle-checkbox2 {
+  grid-area: checkbox2;
+  justify-self: start;
+}
+
+.astral-puzzle-results {
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .astral-puzzle {
+    scale: 0.85;
+  }
+}

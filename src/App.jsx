@@ -1,5 +1,7 @@
+import AstralPuzzle250430 from './components/puzzles/AstralPuzzle250430';
+
 function App() {
-  return <h1>NEW APP</h1>;
+  return <AstralPuzzle250430 />;
 }
 
 export default App;

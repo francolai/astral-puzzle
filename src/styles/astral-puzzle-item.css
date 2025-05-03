@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.astral-puzzle-item {
+  position: relative;
+  display: inline-block;
+  width: 66px;
+  height: 66px;
+  left: 1.5px;
+  top: 1.5px;
+}
+
+.astral-puzzle-item .border {
+  position: absolute;
+  background-image: url('https://cdn.astraltaledb.com/assets/item-icon-frames-c16639d77840d14d032c2b0c23309dbcd230bc57f9aff4f630edb24935780287.png');
+  background-repeat: no-repeat;
+  height: 66px;
+  width: 66px;
+  left: -1.5px;
+  top: -1.5px;
+}
+
+.astral-puzzle-item .border-1 {
+  background-position: 25% 0%;
+}
+.astral-puzzle-item .border-2 {
+  background-position: 50% 0%;
+}
+.astral-puzzle-item .border-3 {
+  background-position: 75% 0%;
+}
+.astral-puzzle-item .border-4 {
+  background-position: 100% 0%;
+}
+.astral-puzzle-item .border-5 {
+  background-position: 0% 100%;
+}
+.astral-puzzle-item .border-6 {
+  background-position: 25% 100%;
+}
+.astral-puzzle-item .border-7 {
+  background-position: 50% 100%;
+}
