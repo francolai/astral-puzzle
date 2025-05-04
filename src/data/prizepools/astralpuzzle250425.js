@@ -42,11 +42,11 @@ fifthRow.addPrize(new Prize('高級戰徽滿貫包', 0.15));
 fifthRow.addPrize(new Prize('掉寶+5護符', 43.384));
 
 const sixthRow = new PrizePool();
-sixthRow.addPrize(new Prize('星界碎塊', 35));
-sixthRow.addPrize(new Prize('星級裝備強化卷', 20.687));
-sixthRow.addPrize(new Prize('武功秘笈自選寶盒', 0.579));
-sixthRow.addPrize(new Prize('蒼誓金羽‧娜塔莎', 0.2));
-sixthRow.addPrize(new Prize('高級戰徽滿貫包', 0.15));
-sixthRow.addPrize(new Prize('掉寶+5護符', 43.384));
+sixthRow.addPrize(new Prize('星界碎塊', 10));
+sixthRow.addPrize(new Prize('星級裝備強化卷', 20));
+sixthRow.addPrize(new Prize('武功秘笈自選寶盒', 20));
+sixthRow.addPrize(new Prize('蒼誓金羽‧娜塔莎', 15));
+sixthRow.addPrize(new Prize('高級戰徽滿貫包', 15));
+sixthRow.addPrize(new Prize('掉寶+5護符', 20));
 
-export default [sixthRow, fifthRow, fourthRow, thirdRow, secondRow, firstRow];
+export default [sixthRow, fourthRow, fifthRow, firstRow, secondRow, thirdRow];
