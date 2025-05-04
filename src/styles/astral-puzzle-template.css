@@ -1,3 +1,7 @@
+::view-transition-group(*) {
+  animation-duration: 0.15s;
+}
+
 body {
   width: 100vw;
   margin: 0;
