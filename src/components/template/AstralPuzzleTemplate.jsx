@@ -2,9 +2,9 @@ import AstralPuzzleButton from './AstralPuzzleButton';
 import AstralPuzzleDrawResult from './AstralPuzzleDrawResult';
 import AstralPuzzleStorage from './AstralPuzzleStorage';
 import AstralPuzzleRow from './AstralPuzzleRow';
-import AstralPuzzleSameRowCheckBox from './AstralPuzzleSameRowCheckBox.jsx';
+import AstralPuzzleSameRowCheckBox from './AstralPuzzleSameRowCheckBox';
 import AstralPuzzleShowOddsCheckBox from './AstralPuzzleShowOddsCheckBox';
-import AstralPuzzleFragmentDrawCheckBox from './AstralPuzzleFragmentDrawCheckBox.jsx';
+import AstralPuzzleFragmentDrawCheckBox from './AstralPuzzleFragmentDrawCheckBox';
 
 import { useState } from 'react';
 
