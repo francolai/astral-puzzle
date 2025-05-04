@@ -23,7 +23,7 @@ function AstralPuzzleTemplate({ rows }) {
   });
   const [disableDraw, setDisableDraw] = useState(false);
   const [claimedItems, setClaimedItems] = useState({});
-  const [showOdds, setShowOdds] = useState(false);
+  const [showOdds, setShowOdds] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
 
   // Function to handle the draw button click
