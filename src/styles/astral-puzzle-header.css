@@ -20,3 +20,9 @@
   font-size: 2rem;
   color: white;
 }
+
+@media (max-width: 480px) {
+  .astral-puzzle-header header {
+    font-size: 1.5rem;
+  }
+}
