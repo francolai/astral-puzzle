@@ -16,7 +16,7 @@ body {
   justify-items: center;
   grid-template-areas:
     '. buttons checkbox1'
-    '. . checkbox2';
+    '. checkbox2 checkbox3';
   width: 30rem;
   max-width: 100%;
   margin: 0 auto;
@@ -33,6 +33,10 @@ body {
 }
 .astral-puzzle-checkbox2 {
   grid-area: checkbox2;
+}
+
+.astral-puzzle-checkbox3 {
+  grid-area: checkbox3;
   justify-self: start;
 }
 

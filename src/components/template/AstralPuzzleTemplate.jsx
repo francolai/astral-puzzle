@@ -3,11 +3,12 @@ import AstralPuzzleDrawResult from './AstralPuzzleDrawResult';
 import AstralPuzzleStorage from './AstralPuzzleStorage';
 import AstralPuzzleRow from './AstralPuzzleRow';
 import AstralPuzzleSameRowCheckBox from './AstralPuzzleSameRowCheckbox';
+import AstralPuzzleShowOddsCheckBox from './AstralPuzzleShowOddsCheckBox';
+import AstralPuzzleFragmentDrawCheckBox from './AstralPuzzleFragmentDrawCheckBox';
 
 import { useState } from 'react';
 
 import '../../styles/astral-puzzle-template.css';
-import AstralPuzzleShowOddsCheckBox from './AstralPuzzleShowOddsCheckBox';
 
 function AstralPuzzleTemplate({ rows }) {
   const [prizeName, setPrizeName] = useState(null);
@@ -16,18 +17,39 @@ function AstralPuzzleTemplate({ rows }) {
     enabled: false,
     rowIndex: 0,
   });
-  const [isOver, setisOver] = useState(false);
+  const [fragmentDraw, setFragmentDraw] = useState({
+    enabled: false,
+    numFragments: 0,
+  });
+  const [disableDraw, setDisableDraw] = useState(false);
   const [claimedItems, setClaimedItems] = useState({});
   const [showOdds, setShowOdds] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   // Function to handle the draw button click
-  const handleDraw = () => {
-    const drawnPrize = rows[rows.length - 1 - currentRow].drawPrize();
-    setPrizeName(drawnPrize);
-    if (drawnPrize === '星界碎塊') {
-      setisOver(true);
+  const handleDrawButtonClick = () => {
+    if (drawSameRow.enabled) {
+      handleSameRowDraw();
+      return;
     }
-    setCurrentRow((prevRow) => prevRow + 1);
+    if (fragmentDraw.enabled && !isPlaying) {
+      setFragmentDraw((prev) => {
+        return { ...prev, numFragments: prev.numFragments - 5 };
+      });
+    }
+    let drawRow = isPlaying
+      ? rows.length - 2 - currentRow
+      : rows.length - 1 - currentRow;
+    const drawnPrize = rows[drawRow].drawPrize();
+    setPrizeName(drawnPrize);
+    if (
+      drawnPrize === '星界碎塊' ||
+      (isPlaying && currentRow + 1 === rows.length - 1)
+    ) {
+      setDisableDraw(true);
+    }
+    setCurrentRow((prevRow) => (isPlaying ? prevRow + 1 : prevRow));
+    setIsPlaying(true);
   };
 
   // Function to handle the claim button click
@@ -35,27 +57,82 @@ function AstralPuzzleTemplate({ rows }) {
     if (!prizeName) return;
     setClaimedItems((prevItems) => {
       const newItems = { ...prevItems };
-      newItems[prizeName] = newItems[prizeName] ? newItems[prizeName] + 1 : 1;
+      newItems[prizeName] =
+        newItems[prizeName] !== undefined ? newItems[prizeName] + 1 : 1;
       return newItems;
     });
     setPrizeName(null);
-    setisOver(false);
-    setCurrentRow(0);
+    setDisableDraw(false);
+    setCurrentRow(fragmentDraw.enabled ? 2 : 0);
+    setIsPlaying(false);
+    if (prizeName === '星界碎塊') {
+      setFragmentDraw((prev) => {
+        return { ...prev, numFragments: prev.numFragments + 1 };
+      });
+    }
+    if (fragmentDraw.numFragments < 5) {
+      setFragmentDraw((prev) => {
+        return { ...prev, enabled: false };
+      });
+      setCurrentRow(0);
+    }
   };
 
-  // Function to handle when same row draw functionality is enabled.
+  // Helper function to handle when same row draw functionality is enabled.
   function handleSameRowDraw() {
     const rowIndex = drawSameRow.rowIndex;
     const drawnPrize = rows[rows.length - 1 - rowIndex].drawPrize();
     setPrizeName(drawnPrize);
     setClaimedItems((prevItems) => {
       const newItems = { ...prevItems };
-      newItems[drawnPrize] = newItems[drawnPrize]
-        ? newItems[drawnPrize] + 1
-        : 1;
+      newItems[drawnPrize] =
+        newItems[drawnPrize] !== undefined ? newItems[drawnPrize] + 1 : 1;
       return newItems;
     });
+    if (prizeName === '星界碎塊') {
+      setFragmentDraw((prev) => {
+        return { ...prev, numFragments: prev.numFragments + 1 };
+      });
+    }
   }
+
+  // Function to handle when the fragment draw functionality is toggled on or off.
+  function handleToggleFragmentDraw(e) {
+    setFragmentDraw((prev) => {
+      if (e.target.checked) {
+        setCurrentRow(2);
+        return { ...prev, enabled: true };
+      } else {
+        setCurrentRow(0);
+        return { ...prev, enabled: false };
+      }
+    });
+  }
+
+  // Function to handle when same row draw functionality is toggled on or off.
+  const handleToggleSameRowDraw = (e) => {
+    setPrizeName(null);
+    setDisableDraw(false);
+    setDrawSameRow((prev) => {
+      if (e.target.checked) {
+        setCurrentRow(prev.rowIndex);
+      } else {
+        setCurrentRow(0);
+      }
+      return { ...prev, enabled: e.target.checked };
+    });
+  };
+
+  // Function to handle when the row is selected from the dropdown.
+  const handleRowSelection = (e) => {
+    if (drawSameRow.enabled) {
+      setCurrentRow(e.target.value - 1);
+    }
+    setDrawSameRow((prev) => {
+      return { ...prev, rowIndex: e.target.value - 1 };
+    });
+  };
+
   // Function to reset the storage
   const resetStorage = () => {
     setClaimedItems({});
@@ -68,7 +145,7 @@ function AstralPuzzleTemplate({ rows }) {
             prizes={row.prizes}
             key={`row-${index}`}
             drawnPrize={prizeName}
-            isHighlighted={index === rows.length - currentRow}
+            isHighlighted={index === rows.length - 1 - currentRow}
             showOdds={showOdds}
           />
         ))}
@@ -76,10 +153,8 @@ function AstralPuzzleTemplate({ rows }) {
       <div className="astral-puzzle-user-input">
         <div className="astral-puzzle-buttons">
           <AstralPuzzleButton
-            onClick={drawSameRow.enabled ? handleSameRowDraw : handleDraw}
-            disabled={
-              isOver || (currentRow === rows.length && !drawSameRow.enabled)
-            }
+            onClick={handleDrawButtonClick}
+            disabled={disableDraw}
           >
             煉金
           </AstralPuzzleButton>
@@ -93,33 +168,26 @@ function AstralPuzzleTemplate({ rows }) {
         <div className="astral-puzzle-checkbox1">
           <AstralPuzzleSameRowCheckBox
             checked={drawSameRow.enabled}
-            onCheckBoxChange={(e) => {
-              setPrizeName(null);
-              setisOver(false);
-              setDrawSameRow((prev) => {
-                if (e.target.checked) {
-                  setCurrentRow(prev.rowIndex + 1);
-                } else {
-                  setCurrentRow(0);
-                }
-                return { ...prev, enabled: e.target.checked };
-              });
-            }}
-            onSelectChange={(e) => {
-              setDrawSameRow((prev) => {
-                if (prev.enabled) {
-                  setCurrentRow(e.target.value);
-                }
-                return { ...prev, rowIndex: e.target.value - 1 };
-              });
-            }}
+            onCheckBoxChange={handleToggleSameRowDraw}
+            onSelectChange={handleRowSelection}
             numRows={rows.length}
+            disabled={fragmentDraw.enabled}
           />
         </div>
         <div className="astral-puzzle-checkbox2">
           <AstralPuzzleShowOddsCheckBox
             onCheckBoxChange={(e) => setShowOdds(e.target.checked)}
             checked={showOdds}
+          />
+        </div>
+        <div className="astral-puzzle-checkbox3">
+          <AstralPuzzleFragmentDrawCheckBox
+            onCheckBoxChange={handleToggleFragmentDraw}
+            checked={fragmentDraw.enabled}
+            numFragments={fragmentDraw.numFragments}
+            disabled={
+              isPlaying || drawSameRow.enabled || fragmentDraw.numFragments < 5
+            }
           />
         </div>
       </div>

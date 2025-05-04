@@ -3,6 +3,7 @@ function AstralPuzzleSameRowCheckBox({
   onCheckBoxChange,
   onSelectChange,
   numRows,
+  disabled,
 }) {
   return (
     <>
@@ -12,6 +13,7 @@ function AstralPuzzleSameRowCheckBox({
         name="sameRowDraw"
         checked={checked}
         onChange={(e) => onCheckBoxChange(e)}
+        disabled={disabled}
       />
       第
       <select name="sameRowDraw" id="sameRowDraw" onChange={onSelectChange}>
