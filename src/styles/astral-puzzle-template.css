@@ -1,6 +1,9 @@
 ::view-transition-group(*) {
   animation-duration: 0.15s;
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 
 body {
   width: 100vw;
