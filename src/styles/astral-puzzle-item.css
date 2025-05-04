@@ -47,5 +47,6 @@
   .astral-puzzle-item {
     scale: 0.8;
     left: 0;
+    top: 0.5px;
   }
 }
