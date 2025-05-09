@@ -39,6 +39,34 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
     quality: '史詩',
   },
+  '特選戒指附魔‧抗爆α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    quality: '史詩',
+  },
+  '特選戒指附魔‧頭目降傷α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    quality: '史詩',
+  },
+  '特選戒指附魔‧降傷α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    quality: '史詩',
+  },
+  '特選戒指附魔‧抗性α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    quality: '史詩',
+  },
+  星河徽印: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
+    quality: '稀有',
+  },
+  銀月徽印: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
+    quality: '稀有',
+  },
+  赤日徽印: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
+    quality: '稀有',
+  },
   元素之風戰徽: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
     quality: '神話',
@@ -90,6 +118,34 @@ const PrizeDatabase = {
   '雷力光劍(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/W12901.png',
     quality: '永恆',
+  },
+  '手染服飾‧夏日狂想(男)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20291.png',
+    quality: '神話',
+  },
+  '手染服飾‧浪漫海風(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20293.png',
+    quality: '神話',
+  },
+  '手染服飾‧夏日狂想(男)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20291.png',
+    quality: '永恆',
+  },
+  '手染服飾‧浪漫海風(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20293.png',
+    quality: '永恆',
+  },
+  莉貝菈的星靈契約書: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80567.png',
+    quality: '稀有',
+  },
+  殘響風笛: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00766.png',
+    quality: '神話',
+  },
+  '混能精魄‧龍偶使': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81195.png',
+    quality: '史詩',
   },
   星級裝備強化卷: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80006.png',

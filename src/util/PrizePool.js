@@ -28,8 +28,11 @@ class PrizePool {
     const totalProbability =
       this.#prizes.reduce((sum, p) => sum + p.probability, 0) +
       prize.probability;
-    if (totalProbability > 100) {
-      throw new Error('Total probability cannot exceed 100%.');
+    const epsilon = 0.0001;
+    if (totalProbability >= 100 + epsilon) {
+      throw new Error(
+        'Total probability cannot exceed 100% (within tolerence).'
+      );
     }
 
     this.#prizes.push(prize);
@@ -44,8 +47,11 @@ class PrizePool {
       (sum, prize) => sum + prize.probability,
       0
     );
-    if (totalProbability !== 100) {
-      throw new Error('The total probability of all prizes must equal 100%.');
+    const epsilon = 0.0001; // Tolerance for floating-point comparison
+    if (Math.abs(totalProbability - 100) > epsilon) {
+      throw new Error(
+        'The total probability of all prizes must equal 100% (within tolerance).'
+      );
     }
   }
 
