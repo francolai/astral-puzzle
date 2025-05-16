@@ -9,6 +9,7 @@
   height: 66px;
   left: 1.5px;
   top: 1.5px;
+  cursor: pointer;
 }
 
 .astral-puzzle-item .border {

@@ -11,10 +11,7 @@ function AstralPuzzleRow({ prizes, drawnPrize, isHighlighted, showOdds }) {
               drawnPrize === prize.name && isHighlighted ? ' selected' : ''
             }`}
           >
-            <AstralPuzzleItem
-              imageURL={prize.getPrizeDetails().imageURL}
-              quality={prize.getPrizeDetails().quality}
-            />
+            <AstralPuzzleItem name={prize.name} {...prize.getPrizeDetails()} />
           </div>
           {showOdds && <div>{`${prize.probability}%`}</div>}
         </div>

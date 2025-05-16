@@ -1,6 +1,13 @@
 import '../../styles/astral-puzzle-item.css';
 
-function AstralPuzzleItem({ imageURL, quality }) {
+function AstralPuzzleItem({ name, imageURL, dataURL, quality }) {
+  const handleItemIconClick = (url) => {
+    const openInNewTab = (url) => {
+      const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+      if (newWindow) newWindow.opener = null;
+    };
+    openInNewTab(url);
+  };
   let borderClassName;
   if (quality === '一般') {
     borderClassName = 'border-1';
@@ -25,7 +32,11 @@ function AstralPuzzleItem({ imageURL, quality }) {
   }
 
   return (
-    <div className="astral-puzzle-item">
+    <div
+      className="astral-puzzle-item"
+      title={name}
+      onClick={() => handleItemIconClick(dataURL)}
+    >
       <div className={`border ${borderClassName}`} />
       <img src={imageURL} />
     </div>
