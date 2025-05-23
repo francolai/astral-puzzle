@@ -6,7 +6,7 @@ import puzzles from './data/puzzles/puzzles.jsx';
 import { useState } from 'react';
 
 function App() {
-  const [date, setDate] = useState('2025/05/15');
+  const [date, setDate] = useState('2025/05/22');
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {

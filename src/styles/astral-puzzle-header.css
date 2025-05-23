@@ -8,10 +8,11 @@
 
 .astral-puzzle-header img {
   position: absolute;
-  height: 60px;
-  left: 0;
+  height: 50px;
+  left: 0px;
+  top: 5px;
   cursor: pointer;
-  margin-left: 0.2rem;
+  margin-left: 0.3rem;
 }
 .astral-puzzle-header header {
   display: flex;
