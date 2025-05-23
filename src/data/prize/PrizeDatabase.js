@@ -81,6 +81,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64918-%E7%89%B9%E9%81%B8%E6%88%92%E6%8C%87%E9%99%84%E9%AD%94%E6%8A%97%E6%80%A7%CE%B1',
     quality: '史詩',
   },
+  '特選項鍊附魔‧造傷α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64910-%E7%89%B9%E9%81%B8%E9%A0%85%E9%8D%8A%E9%99%84%E9%AD%94%E9%80%A0%E5%82%B7%CE%B1',
+    quality: '史詩',
+  },
+  '特選項鍊附魔‧頭目造傷α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64911-%E7%89%B9%E9%81%B8%E9%A0%85%E9%8D%8A%E9%99%84%E9%AD%94%E9%A0%AD%E7%9B%AE%E9%80%A0%E5%82%B7%CE%B1',
+    quality: '史詩',
+  },
+  '特選項鍊附魔‧爆傷α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64912-%E7%89%B9%E9%81%B8%E9%A0%85%E9%8D%8A%E9%99%84%E9%AD%94%E7%88%86%E5%82%B7%CE%B1',
+    quality: '史詩',
+  },
+  '特選項鍊附魔‧頭目爆傷α': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64913-%E7%89%B9%E9%81%B8%E9%A0%85%E9%8D%8A%E9%99%84%E9%AD%94%E9%A0%AD%E7%9B%AE%E7%88%86%E5%82%B7%CE%B1',
+    quality: '史詩',
+  },
   星河徽印: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
     dataURL:
@@ -201,6 +225,36 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55431-%E6%AD%A6%E5%99%A8%E9%9B%B7%E5%8A%9B%E5%85%89%E5%8A%8D',
     quality: '永恆',
   },
+  '頭飾‧貪吃鬼松鼠(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W12901.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55431-%E6%AD%A6%E5%99%A8%E9%9B%B7%E5%8A%9B%E5%85%89%E5%8A%8D',
+    quality: '永恆',
+  },
+  '頭飾‧貪吃鬼松鼠(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10335.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54015-%E9%A0%AD%E9%A3%BE%E8%B2%AA%E5%90%83%E9%AC%BC%E6%9D%BE%E9%BC%A0',
+    quality: '神話',
+  },
+  '頭飾‧小畫家松鼠(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10336.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54016-%E9%A0%AD%E9%A3%BE%E5%B0%8F%E7%95%AB%E5%AE%B6%E6%9D%BE%E9%BC%A0',
+    quality: '神話',
+  },
+  '頭飾‧貪吃鬼松鼠(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10335.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55597-%E9%A0%AD%E9%A3%BE%E8%B2%AA%E5%90%83%E9%AC%BC%E6%9D%BE%E9%BC%A0',
+    quality: '永恆',
+  },
+  '頭飾‧小畫家松鼠(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10336.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55598-%E9%A0%AD%E9%A3%BE%E5%B0%8F%E7%95%AB%E5%AE%B6%E6%9D%BE%E9%BC%A0',
+    quality: '永恆',
+  },
   '手染服飾‧夏日狂想(男)(金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K20291.png',
     dataURL:
@@ -261,11 +315,41 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41729-%E7%AC%A6%E8%83%BD%E7%B2%BE%E9%AD%84%E9%87%91%E7%89%9B',
     quality: '神話',
   },
+  '符能精魄‧銀牛': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81037.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41730-%E7%AC%A6%E8%83%BD%E7%B2%BE%E9%AD%84%E9%8A%80%E7%89%9B',
+    quality: '神話',
+  },
   星級裝備強化卷: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80006.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40559-%E6%98%9F%E7%B4%9A%E8%A3%9D%E5%82%99%E5%BC%B7%E5%8C%96%E5%8D%B7',
     quality: '史詩',
+  },
+  星級飾品裝備強化卷: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80154.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40561-%E6%98%9F%E7%B4%9A%E9%A3%BE%E5%93%81%E8%A3%9D%E5%82%99%E5%BC%B7%E5%8C%96%E5%8D%B7',
+    quality: '史詩',
+  },
+  九星必過強化卷: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80006.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40577-%E4%B9%9D%E6%98%9F%E5%BF%85%E9%81%8E%E5%BC%B7%E5%8C%96%E5%8D%B7',
+    quality: '神話',
+  },
+  九星必過飾品強化卷: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80154.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40587-%E4%B9%9D%E6%98%9F%E5%BF%85%E9%81%8E%E9%A3%BE%E5%93%81%E5%BC%B7%E5%8C%96%E5%8D%B7',
+    quality: '神話',
+  },
+  九星必過戰利品強化卷: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80376.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40597-%E4%B9%9D%E6%98%9F%E5%BF%85%E9%81%8E%E6%88%B0%E5%88%A9%E5%93%81%E5%BC%B7%E5%8C%96%E5%8D%B7',
+    quality: '神話',
   },
   武功秘笈自選寶盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80055.png',
@@ -297,10 +381,22 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41847-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E5%A8%9C%E5%A1%94%E8%8E%8E',
     quality: '神話',
   },
+  '蒼誓金羽‧悠姬': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81000.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41573-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E6%82%A0%E5%A7%AC',
+    quality: '神話',
+  },
   高級戰徽滿貫包: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80049.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64020-%E9%AB%98%E7%B4%9A%E6%88%B0%E5%BE%BD%E6%BB%BF%E8%B2%AB%E5%8C%85',
+    quality: '神話',
+  },
+  星光星靈5星滿貫包I: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64864-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85i',
     quality: '神話',
   },
   '幻姬‧蒼誓召喚法陣': {
