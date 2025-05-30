@@ -226,12 +226,6 @@ const PrizeDatabase = {
     quality: '永恆',
   },
   '頭飾‧貪吃鬼松鼠(金)': {
-    imageURL: 'https://cdn.astraltaledb.com/images/icons/W12901.png',
-    dataURL:
-      'https://www.astraltaledb.com/tw/item/55431-%E6%AD%A6%E5%99%A8%E9%9B%B7%E5%8A%9B%E5%85%89%E5%8A%8D',
-    quality: '永恆',
-  },
-  '頭飾‧貪吃鬼松鼠(金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K10335.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/54015-%E9%A0%AD%E9%A3%BE%E8%B2%AA%E5%90%83%E9%AC%BC%E6%9D%BE%E9%BC%A0',
@@ -253,6 +247,30 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K10336.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/55598-%E9%A0%AD%E9%A3%BE%E5%B0%8F%E7%95%AB%E5%AE%B6%E6%9D%BE%E9%BC%A0',
+    quality: '永恆',
+  },
+  '背飾‧墮落六翼天使(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60029.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54025-%E8%83%8C%E9%A3%BE%E5%A2%AE%E8%90%BD%E5%85%AD%E7%BF%BC%E5%A4%A9%E4%BD%BF',
+    quality: '神話',
+  },
+  '背飾‧輝煌六翼天使(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60200.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54246-%E8%83%8C%E9%A3%BE%E8%BC%9D%E7%85%8C%E5%85%AD%E7%BF%BC%E5%A4%A9%E4%BD%BF',
+    quality: '神話',
+  },
+  '背飾‧墮落六翼天使(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60029.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55607-%E8%83%8C%E9%A3%BE%E5%A2%AE%E8%90%BD%E5%85%AD%E7%BF%BC%E5%A4%A9%E4%BD%BF',
+    quality: '永恆',
+  },
+  '背飾‧輝煌六翼天使(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60200.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55819-%E8%83%8C%E9%A3%BE%E8%BC%9D%E7%85%8C%E5%85%AD%E7%BF%BC%E5%A4%A9%E4%BD%BF',
     quality: '永恆',
   },
   '手染服飾‧夏日狂想(男)(金)': {
@@ -295,6 +313,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80561.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40874-%E8%8A%B1%E9%9F%B3%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
+    quality: '稀有',
+  },
+  莓莓的星靈契約書: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80561.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40739-%E8%8E%93%E8%8E%93%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
     quality: '稀有',
   },
   殘響風笛: {
@@ -357,6 +381,24 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/63779-%E6%AD%A6%E5%8A%9F%E7%A7%98%E7%AC%88%E8%87%AA%E9%81%B8%E5%AF%B6%E7%9B%92',
     quality: '一般',
   },
+  四象星宮祝福自選包: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/63808-%E5%9B%9B%E8%B1%A1%E6%98%9F%E5%AE%AE%E7%A5%9D%E7%A6%8F%E8%87%AA%E9%81%B8%E5%8C%85',
+    quality: '一般',
+  },
+  靈獸護身符自選箱: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64299-%E9%9D%88%E7%8D%B8%E8%AD%B7%E8%BA%AB%E7%AC%A6%E8%87%AA%E9%81%B8%E7%AE%B1',
+    quality: '神話',
+  },
+  特殊小護身符收藏寶盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64293-%E7%89%B9%E6%AE%8A%E5%B0%8F%E8%AD%B7%E8%BA%AB%E7%AC%A6%E6%94%B6%E8%97%8F%E5%AF%B6%E7%9B%92',
+    quality: '神話',
+  },
   '誓約星羽‧多多': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80693.png',
     dataURL:
@@ -387,6 +429,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41573-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E6%82%A0%E5%A7%AC',
     quality: '神話',
   },
+  '蒼誓金羽‧璃兒': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80691.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42077-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E7%92%83%E5%85%92',
+    quality: '神話',
+  },
   高級戰徽滿貫包: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80049.png',
     dataURL:
@@ -397,6 +445,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64864-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85i',
+    quality: '神話',
+  },
+  星光星靈5星滿貫包II: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
     quality: '神話',
   },
   '幻姬‧蒼誓召喚法陣': {
