@@ -9,6 +9,7 @@ import AstralPuzzleFragmentDrawCheckBox from './AstralPuzzleFragmentDrawCheckBox
 import { useState } from 'react';
 
 import '../../styles/astral-puzzle-template.css';
+import AstralPuzzleConfirmModal from './AstralPuzzleConfirmModal';
 
 function AstralPuzzleTemplate({ rows }) {
   const [prizeName, setPrizeName] = useState(null);
@@ -25,11 +26,17 @@ function AstralPuzzleTemplate({ rows }) {
   const [claimedItems, setClaimedItems] = useState({});
   const [showOdds, setShowOdds] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isRareItemDrawn, setIsRareItemDrawn] = useState(false);
+  const [showConfirmModal, setShowConfirmModal] = useState(false);
 
   // Function to handle the draw button click
   const handleDrawButtonClick = () => {
     if (drawSameRow.enabled) {
       handleSameRowDraw();
+      return;
+    }
+    if (isRareItemDrawn) {
+      setShowConfirmModal(true);
       return;
     }
     if (fragmentDraw.enabled && !isPlaying) {
@@ -48,6 +55,9 @@ function AstralPuzzleTemplate({ rows }) {
     ) {
       setDisableDraw(true);
     }
+    if (rows[drawRow].getPrizeProbability(drawnPrize) <= 1) {
+      setIsRareItemDrawn(true);
+    }
     setCurrentRow((prevRow) => (isPlaying ? prevRow + 1 : prevRow));
     setIsPlaying(true);
   };
@@ -65,6 +75,7 @@ function AstralPuzzleTemplate({ rows }) {
     setDisableDraw(false);
     setCurrentRow(fragmentDraw.enabled ? 2 : 0);
     setIsPlaying(false);
+    setIsRareItemDrawn(false);
     if (prizeName === '星界碎塊') {
       setFragmentDraw((prev) => {
         return { ...prev, numFragments: prev.numFragments + 1 };
@@ -133,12 +144,22 @@ function AstralPuzzleTemplate({ rows }) {
     });
   };
 
+  const handleModalButtonClick = (options) => {
+    if (options === 'yes') {
+      setIsRareItemDrawn(false);
+    }
+    setShowConfirmModal(false);
+  };
   // Function to reset the storage
   const resetStorage = () => {
     setClaimedItems({});
   };
   return (
     <>
+      <AstralPuzzleConfirmModal
+        open={showConfirmModal}
+        handleClick={handleModalButtonClick}
+      />
       <div className="astral-puzzle">
         {rows.map((row, index) => (
           <AstralPuzzleRow
