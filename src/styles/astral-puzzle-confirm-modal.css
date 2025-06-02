@@ -1,0 +1,5 @@
+.astral-puzzle-confirm-modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}

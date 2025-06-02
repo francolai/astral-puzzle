@@ -77,6 +77,16 @@ class PrizePool {
   }
 
   /**
+   * Returns the probability of obtaining a prize by its name.
+   * @param {string} prizeName - The name of the prize.
+   * @returns {number|null} The probability of the prize, or null if not found.
+   */
+  getPrizeProbability(prizeName) {
+    const prize = this.#prizes.find((p) => p.name === prizeName);
+    return prize ? prize.probability : null;
+  }
+
+  /**
    * Gets the list of all prizes in the pool.
    * @returns {Array<Prize>} An array of all prizes.
    */
