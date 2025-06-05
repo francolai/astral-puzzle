@@ -50,3 +50,9 @@ body {
 .astral-puzzle-results {
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .astral-puzzle-user-input {
+    font-size: 0.8rem;
+  }
+}

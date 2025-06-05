@@ -1,6 +1,11 @@
 import '../../styles/astral-puzzle-item.css';
 
-function AstralPuzzleItem({ name, imageURL, dataURL, quality }) {
+function AstralPuzzleItem({
+  name,
+  imageURL = 'https://cdn.astraltaledb.com/images/icons/E10131.png',
+  dataURL,
+  quality,
+}) {
   const handleItemIconClick = (url) => {
     const openInNewTab = (url) => {
       const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
@@ -8,7 +13,7 @@ function AstralPuzzleItem({ name, imageURL, dataURL, quality }) {
     };
     openInNewTab(url);
   };
-  let borderClassName;
+  let borderClassName = '';
   if (quality === '一般') {
     borderClassName = 'border-1';
   }

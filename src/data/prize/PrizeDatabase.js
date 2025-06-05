@@ -225,6 +225,31 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55431-%E6%AD%A6%E5%99%A8%E9%9B%B7%E5%8A%9B%E5%85%89%E5%8A%8D',
     quality: '永恆',
   },
+  '武器‧銀月之舞雙刀(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W73001.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53909-%E6%AD%A6%E5%99%A8%E9%8A%80%E6%9C%88%E4%B9%8B%E8%88%9E%E9%9B%99%E5%88%80',
+    quality: '神話',
+  },
+  '武器‧風魔之噬雙刀(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W73101.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53910-%E6%AD%A6%E5%99%A8%E9%A2%A8%E9%AD%94%E4%B9%8B%E5%99%AC%E9%9B%99%E5%88%80',
+    quality: '神話',
+  },
+  '武器‧銀月之舞雙刀(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W73001.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55499-%E6%AD%A6%E5%99%A8%E9%8A%80%E6%9C%88%E4%B9%8B%E8%88%9E%E9%9B%99%E5%88%80',
+    quality: '永恆',
+  },
+  '武器‧風魔之噬雙刀(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W73101.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55500-%E6%AD%A6%E5%99%A8%E9%A2%A8%E9%AD%94%E4%B9%8B%E5%99%AC%E9%9B%99%E5%88%80',
+    quality: '永恆',
+  },
+
   '頭飾‧貪吃鬼松鼠(金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K10335.png',
     dataURL:
@@ -297,6 +322,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55838-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B5%AA%E6%BC%AB%E6%B5%B7%E9%A2%A8%E5%A5%B3',
     quality: '永恆',
   },
+  玫瑰金自選禮盒V: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64274-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92v',
+    quality: '神話',
+  },
   莉貝菈的星靈契約書: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80567.png',
     dataURL:
@@ -333,6 +364,31 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41917-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E9%BE%8D%E5%81%B6%E4%BD%BF',
     quality: '史詩',
   },
+  '混能精魄‧獵人': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80771.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40993-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E7%8D%B5%E4%BA%BA',
+    quality: '史詩',
+  },
+  '混能精魄‧鬥士': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80773.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40995-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E9%AC%A5%E5%A3%AB',
+    quality: '史詩',
+  },
+  '混能精魄‧刺客': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80772.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40994-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E5%88%BA%E5%AE%A2',
+    quality: '史詩',
+  },
+  '混能精魄‧魔砲': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80777.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40999-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E9%AD%94%E7%A0%B2',
+    quality: '史詩',
+  },
+
   '符能精魄‧金牛': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81036.png',
     dataURL:
@@ -355,6 +411,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80154.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40561-%E6%98%9F%E7%B4%9A%E9%A3%BE%E5%93%81%E8%A3%9D%E5%82%99%E5%BC%B7%E5%8C%96%E5%8D%B7',
+    quality: '史詩',
+  },
+  星級戰利品裝備強化卷: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80376.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42051-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E5%87%9C',
     quality: '史詩',
   },
   九星必過強化卷: {
@@ -393,6 +455,19 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64299-%E9%9D%88%E7%8D%B8%E8%AD%B7%E8%BA%AB%E7%AC%A6%E8%87%AA%E9%81%B8%E7%AE%B1',
     quality: '神話',
   },
+  金色滑翔翼自選禮包: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80050.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64011-%E9%87%91%E8%89%B2%E6%BB%91%E7%BF%94%E7%BF%BC%E8%87%AA%E9%81%B8%E7%A6%AE%E5%8C%85',
+    quality: '神話',
+  },
+  // 輝光星靈自選箱I: {
+  //   imageURL: 'https://cdn.astraltaledb.com/images/icons/E10131.png',
+  //   dataURL:
+  //     'https://www.astraltaledb.com/tw/item/64011-%E9%87%91%E8%89%B2%E6%BB%91%E7%BF%94%E7%BF%BC%E8%87%AA%E9%81%B8%E7%A6%AE%E5%8C%85',
+  //   quality: '神話',
+  // },
+
   特殊小護身符收藏寶盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
     dataURL:
@@ -435,6 +510,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/42077-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E7%92%83%E5%85%92',
     quality: '神話',
   },
+  '蒼誓金羽‧凜': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81139.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42051-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E5%87%9C',
+    quality: '神話',
+  },
   高級戰徽滿貫包: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80049.png',
     dataURL:
@@ -452,6 +533,18 @@ const PrizeDatabase = {
     dataURL:
       'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
     quality: '神話',
+  },
+  未鑑定的S級滑翔翼外觀附魔福袋: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80053.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64894-%E6%9C%AA%E9%91%91%E5%AE%9A%E7%9A%84s%E7%B4%9A%E6%BB%91%E7%BF%94%E7%BF%BC%E5%A4%96%E8%A7%80%E9%99%84%E9%AD%94%E7%A6%8F%E8%A2%8B',
+    quality: '史詩',
+  },
+  未鑑定的S級圖形稱號外觀附魔福袋: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80053.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64895-%E6%9C%AA%E9%91%91%E5%AE%9A%E7%9A%84s%E7%B4%9A%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E5%A4%96%E8%A7%80%E9%99%84%E9%AD%94%E7%A6%8F%E8%A2%8B',
+    quality: '史詩',
   },
   '幻姬‧蒼誓召喚法陣': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80870.png',

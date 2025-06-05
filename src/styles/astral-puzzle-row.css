@@ -38,4 +38,7 @@
     height: 60px;
     width: 60px;
   }
+  .astral-puzzle-item-probability {
+    font-size: 0.8rem;
+  }
 }
