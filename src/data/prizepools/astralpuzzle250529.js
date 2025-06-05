@@ -14,7 +14,7 @@ secondRow.addPrize(new Prize('星界碎塊', 15));
 secondRow.addPrize(new Prize('高級角色經驗提升祝福', 48.855));
 secondRow.addPrize(new Prize('特選項鍊附魔‧造傷α', 0.35));
 secondRow.addPrize(new Prize('特選項鍊附魔‧頭目造傷α', 0.35));
-secondRow.addPrize(new Prize('莓莓的星靈契約書', 0.445));
+secondRow.addPrize(new Prize('莓莓的星靈契約書', 0.445, 5));
 secondRow.addPrize(new Prize('掉寶+2護符', 35));
 
 const thirdRow = new PrizePool();
@@ -27,7 +27,7 @@ thirdRow.addPrize(new Prize('掉寶+3護符', 35));
 
 const fourthRow = new PrizePool();
 fourthRow.addPrize(new Prize('星界碎塊', 30));
-fourthRow.addPrize(new Prize('星靈羈絆寶石', 33.7));
+fourthRow.addPrize(new Prize('星靈羈絆寶石', 33.7, 3));
 fourthRow.addPrize(new Prize('背飾‧墮落六翼天使(粉金)', 0.5));
 fourthRow.addPrize(new Prize('背飾‧輝煌六翼天使(粉金)', 0.5));
 fourthRow.addPrize(new Prize('四象星宮祝福自選包', 0.3));

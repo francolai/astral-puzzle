@@ -6,6 +6,7 @@ import PrizeDatabase from '../data/prize/PrizeDatabase.js';
 class Prize {
   #name; // Private field for the prize name
   #probability; // Private field for the prize probability
+  #quantity; // Private field for the quantity of the prize
 
   /**
    * Creates a new Prize instance.
@@ -13,7 +14,7 @@ class Prize {
    * @param {number} probability - The probability of winning this prize (0 < probability <= 100).
    * @throws {Error} If the name is invalid or the probability is out of range.
    */
-  constructor(name, probability) {
+  constructor(name, probability, quantity = 1) {
     if (typeof name !== 'string' || name.trim() === '') {
       throw new Error('Prize name must be a non-empty string.');
     }
@@ -27,6 +28,7 @@ class Prize {
 
     this.#name = name;
     this.#probability = probability;
+    this.#quantity = quantity; // Set the quantity to the provided value
   }
 
   /**
@@ -43,6 +45,13 @@ class Prize {
    */
   get probability() {
     return this.#probability;
+  }
+  /**
+   * Gets the quantity of the prize.
+   * @returns {number} The quantity of the prize.
+   */
+  get quantity() {
+    return this.#quantity;
   }
 
   /**

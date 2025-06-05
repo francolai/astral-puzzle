@@ -69,7 +69,11 @@ class PrizePool {
     for (const prize of this.#prizes) {
       cumulativeProbability += prize.probability;
       if (random <= cumulativeProbability) {
-        return prize.name;
+        return {
+          name: prize.name,
+          quantity: prize.quantity,
+          probability: prize.probability,
+        };
       }
     }
 

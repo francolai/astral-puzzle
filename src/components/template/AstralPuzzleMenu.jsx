@@ -1,4 +1,4 @@
-import puzzles from '../../data/puzzles/puzzles';
+import { puzzles } from '../../data/puzzles/puzzles';
 
 import '../../styles/astral-puzzle-menu.css';
 

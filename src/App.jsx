@@ -2,11 +2,11 @@ import { flushSync } from 'react-dom';
 import AstralPuzzleHeader from './components/template/AstralPuzzleHeader';
 import AstralPuzzleMenu from './components/template/AstralPuzzleMenu';
 
-import puzzles from './data/puzzles/puzzles.jsx';
+import { lastUpdate, puzzles } from './data/puzzles/puzzles.jsx';
 import { useState } from 'react';
 
 function App() {
-  const [date, setDate] = useState('2025/05/29');
+  const [date, setDate] = useState(lastUpdate);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {

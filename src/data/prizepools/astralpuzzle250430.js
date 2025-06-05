@@ -27,7 +27,7 @@ thirdRow.addPrize(new Prize('掉寶+3護符', 35));
 
 const fourthRow = new PrizePool();
 fourthRow.addPrize(new Prize('星界碎塊', 30));
-fourthRow.addPrize(new Prize('星靈羈絆寶石', 34.04));
+fourthRow.addPrize(new Prize('星靈羈絆寶石', 34.04, 3));
 fourthRow.addPrize(new Prize('雷力光劍(粉金)', 0.405));
 fourthRow.addPrize(new Prize('炎力光劍(粉金)', 0.405));
 fourthRow.addPrize(new Prize('近戰之怒戰徽', 0.15));
