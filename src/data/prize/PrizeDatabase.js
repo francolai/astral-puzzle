@@ -416,7 +416,7 @@ const PrizeDatabase = {
   星級戰利品裝備強化卷: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80376.png',
     dataURL:
-      'https://www.astraltaledb.com/tw/item/42051-%E8%92%BC%E8%AA%93%E9%87%91%E7%BE%BD%E5%87%9C',
+      'https://www.astraltaledb.com/tw/item/40563-%E6%98%9F%E7%B4%9A%E6%88%B0%E5%88%A9%E5%93%81%E8%A3%9D%E5%82%99%E5%BC%B7%E5%8C%96%E5%8D%B7',
     quality: '史詩',
   },
   九星必過強化卷: {
