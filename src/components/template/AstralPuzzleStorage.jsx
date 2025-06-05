@@ -5,7 +5,7 @@ function AstralPuzzleStorage({ claimedItems }) {
   for (const [item, quantity] of Object.entries(claimedItems)) {
     items.push(
       <p key={item}>
-        {item} x{quantity}
+        {item} x<b>{quantity}</b>
       </p>
     );
     totalItems += quantity;

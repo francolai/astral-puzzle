@@ -12,7 +12,11 @@ import '../../styles/astral-puzzle-template.css';
 import AstralPuzzleConfirmModal from './AstralPuzzleConfirmModal';
 
 function AstralPuzzleTemplate({ rows }) {
-  const [prizeName, setPrizeName] = useState(null);
+  const [drawnPrize, setDrawnPrize] = useState({
+    name: null,
+    quantity: 0,
+    probability: 0,
+  });
   const [currentRow, setCurrentRow] = useState(0);
   const [drawSameRow, setDrawSameRow] = useState({
     enabled: false,
@@ -48,14 +52,14 @@ function AstralPuzzleTemplate({ rows }) {
       ? rows.length - 2 - currentRow
       : rows.length - 1 - currentRow;
     const drawnPrize = rows[drawRow].drawPrize();
-    setPrizeName(drawnPrize);
+    setDrawnPrize(drawnPrize);
     if (
-      drawnPrize === '星界碎塊' ||
+      drawnPrize.name === '星界碎塊' ||
       (isPlaying && currentRow + 1 === rows.length - 1)
     ) {
       setDisableDraw(true);
     }
-    if (rows[drawRow].getPrizeProbability(drawnPrize) <= 1) {
+    if (drawnPrize.probability <= 1) {
       setIsRareItemDrawn(true);
     }
     setCurrentRow((prevRow) => (isPlaying ? prevRow + 1 : prevRow));
@@ -64,19 +68,25 @@ function AstralPuzzleTemplate({ rows }) {
 
   // Function to handle the claim button click
   const handleClaim = () => {
-    if (!prizeName) return;
+    if (!drawnPrize.name) return;
     setClaimedItems((prevItems) => {
       const newItems = { ...prevItems };
-      newItems[prizeName] =
-        newItems[prizeName] !== undefined ? newItems[prizeName] + 1 : 1;
+      const quantifiedName =
+        drawnPrize.quantity > 1
+          ? `${drawnPrize.name}x${drawnPrize.quantity}`
+          : drawnPrize.name;
+      newItems[quantifiedName] =
+        newItems[quantifiedName] !== undefined
+          ? newItems[quantifiedName] + 1
+          : 1;
       return newItems;
     });
-    setPrizeName(null);
+    setDrawnPrize({ name: null, quantity: 0, probability: 0 });
     setDisableDraw(false);
     setCurrentRow(fragmentDraw.enabled ? 2 : 0);
     setIsPlaying(false);
     setIsRareItemDrawn(false);
-    if (prizeName === '星界碎塊') {
+    if (drawnPrize.name === '星界碎塊') {
       setFragmentDraw((prev) => {
         return { ...prev, numFragments: prev.numFragments + 1 };
       });
@@ -93,14 +103,20 @@ function AstralPuzzleTemplate({ rows }) {
   function handleSameRowDraw() {
     const rowIndex = drawSameRow.rowIndex;
     const drawnPrize = rows[rows.length - 1 - rowIndex].drawPrize();
-    setPrizeName(drawnPrize);
+    setDrawnPrize(drawnPrize);
     setClaimedItems((prevItems) => {
       const newItems = { ...prevItems };
-      newItems[drawnPrize] =
-        newItems[drawnPrize] !== undefined ? newItems[drawnPrize] + 1 : 1;
+      const quantifiedName =
+        drawnPrize.quantity > 1
+          ? `${drawnPrize.name}x${drawnPrize.quantity}`
+          : drawnPrize.name;
+      newItems[quantifiedName] =
+        newItems[quantifiedName] !== undefined
+          ? newItems[quantifiedName] + 1
+          : 1;
       return newItems;
     });
-    if (prizeName === '星界碎塊') {
+    if (drawnPrize.name === '星界碎塊') {
       setFragmentDraw((prev) => {
         return { ...prev, numFragments: prev.numFragments + 1 };
       });
@@ -122,7 +138,7 @@ function AstralPuzzleTemplate({ rows }) {
 
   // Function to handle when same row draw functionality is toggled on or off.
   const handleToggleSameRowDraw = (e) => {
-    setPrizeName(null);
+    setDrawnPrize({ name: null, quantity: 0, probability: 0 });
     setDisableDraw(false);
     setDrawSameRow((prev) => {
       if (e.target.checked) {
@@ -165,7 +181,7 @@ function AstralPuzzleTemplate({ rows }) {
           <AstralPuzzleRow
             prizes={row.prizes}
             key={`row-${index}`}
-            drawnPrize={prizeName}
+            drawnPrize={drawnPrize.name}
             isHighlighted={index === rows.length - 1 - currentRow}
             showOdds={showOdds}
           />
@@ -181,7 +197,7 @@ function AstralPuzzleTemplate({ rows }) {
           </AstralPuzzleButton>
           <AstralPuzzleButton
             onClick={handleClaim}
-            disabled={prizeName === null || drawSameRow.enabled}
+            disabled={drawnPrize.name === null || drawSameRow.enabled}
           >
             領取
           </AstralPuzzleButton>
@@ -214,7 +230,7 @@ function AstralPuzzleTemplate({ rows }) {
       </div>
 
       <div className="astral-puzzle-results">
-        <AstralPuzzleDrawResult drawnPrize={prizeName} />
+        <AstralPuzzleDrawResult drawnPrize={drawnPrize.name} />
 
         <AstralPuzzleStorage claimedItems={claimedItems} />
         {Object.keys(claimedItems).length > 0 && (
