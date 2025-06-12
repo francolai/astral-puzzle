@@ -322,6 +322,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55838-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B5%AA%E6%BC%AB%E6%B5%B7%E9%A2%A8%E5%A5%B3',
     quality: '永恆',
   },
+  '手染服飾‧青春夏季泳裝(男)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20398.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55116-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E9%9D%92%E6%98%A5%E5%A4%8F%E5%AD%A3%E6%B3%B3%E8%A3%9D%E7%94%B7',
+    quality: '神話',
+  },
+  '手染服飾‧清涼夏日泳裝(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20396.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55025-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B8%85%E6%B6%BC%E5%A4%8F%E6%97%A5%E6%B3%B3%E8%A3%9D%E5%A5%B3',
+    quality: '神話',
+  },
+  '手染服飾‧青春夏季泳裝(男)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20398.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57202-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E9%9D%92%E6%98%A5%E5%A4%8F%E5%AD%A3%E6%B3%B3%E8%A3%9D%E7%94%B7',
+    quality: '永恆',
+  },
+  '手染服飾‧清涼夏日泳裝(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20396.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57200-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B8%85%E6%B6%BC%E5%A4%8F%E6%97%A5%E6%B3%B3%E8%A3%9D%E5%A5%B3',
+    quality: '永恆',
+  },
   玫瑰金自選禮盒V: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -358,6 +382,31 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/42088-%E6%AE%98%E9%9F%BF%E9%A2%A8%E7%AC%9B',
     quality: '神話',
   },
+  '精密電路-攻勢瓦解': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60214.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41685-%E7%B2%BE%E5%AF%86%E9%9B%BB%E8%B7%AF-%E6%94%BB%E5%8B%A2%E7%93%A6%E8%A7%A3',
+    quality: '史詩',
+  },
+  '精密電路-銅牆鐵壁': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80324.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41684-%E7%B2%BE%E5%AF%86%E9%9B%BB%E8%B7%AF-%E9%8A%85%E7%89%86%E9%90%B5%E5%A3%81',
+    quality: '史詩',
+  },
+  '精密電路-觀察儀': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10503.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41692-%E7%B2%BE%E5%AF%86%E9%9B%BB%E8%B7%AF-%E8%A7%80%E5%AF%9F%E5%84%80',
+    quality: '史詩',
+  },
+  '精密電路-檢測儀': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80623.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41693-%E7%B2%BE%E5%AF%86%E9%9B%BB%E8%B7%AF-%E6%AA%A2%E6%B8%AC%E5%84%80',
+    quality: '史詩',
+  },
+
   '混能精魄‧龍偶使': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81195.png',
     dataURL:
@@ -461,13 +510,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64011-%E9%87%91%E8%89%B2%E6%BB%91%E7%BF%94%E7%BF%BC%E8%87%AA%E9%81%B8%E7%A6%AE%E5%8C%85',
     quality: '神話',
   },
-  // 輝光星靈自選箱I: {
-  //   imageURL: 'https://cdn.astraltaledb.com/images/icons/E10131.png',
-  //   dataURL:
-  //     'https://www.astraltaledb.com/tw/item/64011-%E9%87%91%E8%89%B2%E6%BB%91%E7%BF%94%E7%BF%BC%E8%87%AA%E9%81%B8%E7%A6%AE%E5%8C%85',
-  //   quality: '神話',
-  // },
-
+  輝光星靈自選箱I: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/60934-%E8%BC%9D%E5%85%89%E6%98%9F%E9%9D%88%E8%87%AA%E9%81%B8%E7%AE%B1i',
+    quality: '神話',
+  },
   特殊小護身符收藏寶盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
     dataURL:
@@ -484,6 +532,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80691.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/53497-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E7%92%83%E5%85%92',
+    quality: '史詩',
+  },
+  '誓約星羽‧艾蕾希亞': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81120.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41918-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E8%89%BE%E8%95%BE%E5%B8%8C%E4%BA%9E',
     quality: '史詩',
   },
   '誓約星羽‧小莉塔': {
@@ -534,6 +588,13 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
     quality: '神話',
   },
+  // 混能精魄自選包III: {
+  //   imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
+  //   dataURL:
+  //     'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
+  //   quality: '神話',
+  // },
+
   未鑑定的S級滑翔翼外觀附魔福袋: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80053.png',
     dataURL:
@@ -546,12 +607,31 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64895-%E6%9C%AA%E9%91%91%E5%AE%9A%E7%9A%84s%E7%B4%9A%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E5%A4%96%E8%A7%80%E9%99%84%E9%AD%94%E7%A6%8F%E8%A2%8B',
     quality: '史詩',
   },
+  特選α披風附魔隨機包: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64923-%E7%89%B9%E9%81%B8%CE%B1%E6%8A%AB%E9%A2%A8%E9%99%84%E9%AD%94%E9%9A%A8%E6%A9%9F%E5%8C%85',
+    quality: '神話',
+  },
+
   '幻姬‧蒼誓召喚法陣': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80870.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/42078-%E5%B9%BB%E5%A7%AC%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
     quality: '神話',
   },
+  '輝夜‧蒼誓召喚法陣': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80870.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42099-%E8%BC%9D%E5%A4%9C%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
+    quality: '神話',
+  },
+  // '稱號兌換券‧⚔️永劫': {
+  //   imageURL: 'https://cdn.astraltaledb.com/images/icons/I80870.png',
+  //   dataURL:
+  //     'https://www.astraltaledb.com/tw/item/42099-%E8%BC%9D%E5%A4%9C%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
+  //   quality: '神話',
+  // },
 };
 
 export default PrizeDatabase;
