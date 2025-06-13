@@ -588,12 +588,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
     quality: '神話',
   },
-  // 混能精魄自選包III: {
-  //   imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
-  //   dataURL:
-  //     'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
-  //   quality: '神話',
-  // },
+  混能精魄自選包III: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/60942-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E8%87%AA%E9%81%B8%E5%8C%85iii',
+    quality: '史詩',
+  },
 
   未鑑定的S級滑翔翼外觀附魔福袋: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80053.png',
@@ -626,12 +626,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/42099-%E8%BC%9D%E5%A4%9C%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
     quality: '神話',
   },
-  // '稱號兌換券‧⚔️永劫': {
-  //   imageURL: 'https://cdn.astraltaledb.com/images/icons/I80870.png',
-  //   dataURL:
-  //     'https://www.astraltaledb.com/tw/item/42099-%E8%BC%9D%E5%A4%9C%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
-  //   quality: '神話',
-  // },
+  '稱號兌換券‧⚔️永劫': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00001.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45615-%E7%A8%B1%E8%99%9F%E5%85%8C%E6%8F%9B%E5%88%B8%E2%9A%94%E6%B0%B8%E5%8A%AB',
+    quality: '神話',
+  },
 };
 
 export default PrizeDatabase;
