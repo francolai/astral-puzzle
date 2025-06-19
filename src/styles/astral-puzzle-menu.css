@@ -12,7 +12,10 @@
   max-width: 200px;
   background-color: rgb(80, 77, 77);
   animation: slide-in 0.1s linear;
+  display: flex;
+  flex-direction: column;
 }
+
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
@@ -30,6 +33,7 @@
   justify-content: center;
   align-items: center;
   height: 60px;
+  min-height: 60px;
   font-size: 1.5rem;
   color: white;
 }
@@ -38,11 +42,19 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  overflow: auto;
+  height: calc(100vh - 60px);
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox, Safari 18.2+, Chromium 121+ */
 }
+/* .astral-puzzle-menu-options::-webkit-scrollbar {
+  display: none; 
+} */
 .astral-puzzle-menu-option {
   display: flex;
   color: white;
   height: 40px;
+  min-height: 40px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
