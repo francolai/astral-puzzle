@@ -33,6 +33,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/40056-%E6%98%9F%E9%9D%88%E7%BE%88%E7%B5%86%E5%AF%B6%E7%9F%B3',
     quality: '一般',
   },
+  星靈昇華石: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80095.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40555-%E6%98%9F%E9%9D%88%E6%98%87%E8%8F%AF%E7%9F%B3',
+    quality: '史詩',
+  },
   '特選披風附魔‧元素α': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80206.png',
     dataURL:
@@ -201,6 +207,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57466-%E8%9C%9C%E8%8E%93%E7%94%9C%E9%BB%9E%E8%90%8C%E7%8A%AC',
     quality: '永恆',
   },
+  '可可‧借物龍貓(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81230.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57741-%E5%8F%AF%E5%8F%AF%E5%80%9F%E7%89%A9%E9%BE%8D%E8%B2%93',
+    quality: '神話',
+  },
+  '莓果‧借物龍貓(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81231.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57742-%E8%8E%93%E6%9E%9C%E5%80%9F%E7%89%A9%E9%BE%8D%E8%B2%93',
+    quality: '神話',
+  },
+  '可可‧借物龍貓(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81230.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57743-%E5%8F%AF%E5%8F%AF%E5%80%9F%E7%89%A9%E9%BE%8D%E8%B2%93',
+    quality: '永恆',
+  },
+  '莓果‧借物龍貓(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81231.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57742-%E8%8E%93%E6%9E%9C%E5%80%9F%E7%89%A9%E9%BE%8D%E8%B2%93',
+    quality: '永恆',
+  },
   '炎力光劍(金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/W12301.png',
     dataURL:
@@ -346,6 +376,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57200-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B8%85%E6%B6%BC%E5%A4%8F%E6%97%A5%E6%B3%B3%E8%A3%9D%E5%A5%B3',
     quality: '永恆',
   },
+  玫瑰金自選禮盒III: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64272-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92iii',
+    quality: '神話',
+  },
   玫瑰金自選禮盒V: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -370,10 +406,22 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/40874-%E8%8A%B1%E9%9F%B3%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
     quality: '稀有',
   },
+  流星的星靈契約書: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80561.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40653-%E6%B5%81%E6%98%9F%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
+    quality: '稀有',
+  },
   莓莓的星靈契約書: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80561.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40739-%E8%8E%93%E8%8E%93%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
+    quality: '稀有',
+  },
+  瞳與奏的星靈契約書: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80562.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41480-%E7%9E%B3%E8%88%87%E5%A5%8F%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
     quality: '稀有',
   },
   殘響風笛: {
@@ -522,6 +570,25 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64293-%E7%89%B9%E6%AE%8A%E5%B0%8F%E8%AD%B7%E8%BA%AB%E7%AC%A6%E6%94%B6%E8%97%8F%E5%AF%B6%E7%9B%92',
     quality: '神話',
   },
+  特效圖形稱號自選箱: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/60933-%E7%89%B9%E6%95%88%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E8%87%AA%E9%81%B8%E7%AE%B1',
+    quality: '神話',
+  },
+  四階星能精魄禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64857-%E5%9B%9B%E9%9A%8E%E6%98%9F%E8%83%BD%E7%B2%BE%E9%AD%84%E7%A6%AE%E7%9B%92',
+    quality: '一般',
+  },
+  二階日能精魄禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64939-%E4%BA%8C%E9%9A%8E%E6%97%A5%E8%83%BD%E7%B2%BE%E9%AD%84%E7%A6%AE%E7%9B%92',
+    quality: '史詩',
+  },
+
   '誓約星羽‧多多': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80693.png',
     dataURL:
@@ -613,6 +680,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64923-%E7%89%B9%E9%81%B8%CE%B1%E6%8A%AB%E9%A2%A8%E9%99%84%E9%AD%94%E9%9A%A8%E6%A9%9F%E5%8C%85',
     quality: '神話',
   },
+  特選α戒指附魔隨機包: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64924-%E7%89%B9%E9%81%B8%CE%B1%E6%88%92%E6%8C%87%E9%99%84%E9%AD%94%E9%9A%A8%E6%A9%9F%E5%8C%85',
+    quality: '神話',
+  },
 
   '幻姬‧蒼誓召喚法陣': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80870.png',
@@ -630,6 +703,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00001.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/45615-%E7%A8%B1%E8%99%9F%E5%85%8C%E6%8F%9B%E5%88%B8%E2%9A%94%E6%B0%B8%E5%8A%AB',
+    quality: '神話',
+  },
+  魔王護符: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01013.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42097-%E9%AD%94%E7%8E%8B%E8%AD%B7%E7%AC%A6',
     quality: '神話',
   },
 };
