@@ -47,9 +47,9 @@
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox, Safari 18.2+, Chromium 121+ */
 }
-/* .astral-puzzle-menu-options::-webkit-scrollbar {
-  display: none; 
-} */
+.astral-puzzle-menu-options::-webkit-scrollbar {
+  display: none;
+}
 .astral-puzzle-menu-option {
   display: flex;
   color: white;

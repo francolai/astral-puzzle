@@ -153,6 +153,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47203-%E8%BF%91%E6%88%B0%E4%B9%8B%E6%80%92%E6%88%B0%E5%BE%BD',
     quality: '神話',
   },
+  傳說戰徽鍛造坩堝: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00228.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42114-%E5%82%B3%E8%AA%AA%E6%88%B0%E5%BE%BD%E9%8D%9B%E9%80%A0%E5%9D%A9%E5%A0%9D',
+    quality: '神話',
+  },
   '掉寶+1護符': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80098.png',
     dataURL:
@@ -376,6 +382,36 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57200-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B8%85%E6%B6%BC%E5%A4%8F%E6%97%A5%E6%B3%B3%E8%A3%9D%E5%A5%B3',
     quality: '永恆',
   },
+  '手染髮型‧夏日少年(男)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10445.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55729-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E5%A4%8F%E6%97%A5%E5%B0%91%E5%B9%B4%E7%94%B7',
+    quality: '神話',
+  },
+  '手染髮型‧夏日少女(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10447.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54152-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E5%A4%8F%E6%97%A5%E5%B0%91%E5%A5%B3%E5%A5%B3',
+    quality: '神話',
+  },
+  '手染髮型‧夏日少年(男)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10445.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55729-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E5%A4%8F%E6%97%A5%E5%B0%91%E5%B9%B4%E7%94%B7',
+    quality: '永恆',
+  },
+  '手染髮型‧夏日少女(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10447.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55731-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E5%A4%8F%E6%97%A5%E5%B0%91%E5%A5%B3%E5%A5%B3',
+    quality: '永恆',
+  },
+  玫瑰金自選禮盒II: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64271-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92ii',
+    quality: '神話',
+  },
   玫瑰金自選禮盒III: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -552,6 +588,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64299-%E9%9D%88%E7%8D%B8%E8%AD%B7%E8%BA%AB%E7%AC%A6%E8%87%AA%E9%81%B8%E7%AE%B1',
     quality: '神話',
   },
+  蠻牛之力自選箱: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80056.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/60941-%E8%A0%BB%E7%89%9B%E4%B9%8B%E5%8A%9B%E8%87%AA%E9%81%B8%E7%AE%B1',
+    quality: '神話',
+  },
   金色滑翔翼自選禮包: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80050.png',
     dataURL:
@@ -655,6 +697,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
     quality: '神話',
   },
+  混能精魄自選包II: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64877-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E8%87%AA%E9%81%B8%E5%8C%85ii',
+    quality: '史詩',
+  },
   混能精魄自選包III: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80051.png',
     dataURL:
@@ -684,6 +732,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64924-%E7%89%B9%E9%81%B8%CE%B1%E6%88%92%E6%8C%87%E9%99%84%E9%AD%94%E9%9A%A8%E6%A9%9F%E5%8C%85',
+    quality: '神話',
+  },
+  特選α項鍊附魔隨機包: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80128.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64914-%E7%89%B9%E9%81%B8%CE%B1%E9%A0%85%E9%8D%8A%E9%99%84%E9%AD%94%E9%9A%A8%E6%A9%9F%E5%8C%85',
     quality: '神話',
   },
 
