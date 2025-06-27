@@ -143,8 +143,10 @@ function AstralPuzzleTemplate({ rows }) {
     setDrawSameRow((prev) => {
       if (e.target.checked) {
         setCurrentRow(prev.rowIndex);
+        setIsPlaying(true);
       } else {
         setCurrentRow(0);
+        setIsPlaying(false);
       }
       return { ...prev, enabled: e.target.checked };
     });
@@ -182,7 +184,7 @@ function AstralPuzzleTemplate({ rows }) {
             prizes={row.prizes}
             key={`row-${index}`}
             drawnPrize={drawnPrize.name}
-            isHighlighted={index === rows.length - 1 - currentRow}
+            isHighlighted={isPlaying && index === rows.length - 1 - currentRow}
             showOdds={showOdds}
           />
         ))}
