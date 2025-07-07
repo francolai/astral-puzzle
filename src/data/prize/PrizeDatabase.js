@@ -406,6 +406,36 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55731-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E5%A4%8F%E6%97%A5%E5%B0%91%E5%A5%B3%E5%A5%B3',
     quality: '永恆',
   },
+  '面飾‧貓咪鯛魚燒(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10404.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54100-%E9%9D%A2%E9%A3%BE%E8%B2%93%E5%92%AA%E9%AF%9B%E9%AD%9A%E7%87%92',
+    quality: '神話',
+  },
+  '面飾‧小雞鯛魚燒(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10405.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54101-%E9%9D%A2%E9%A3%BE%E5%B0%8F%E9%9B%9E%E9%AF%9B%E9%AD%9A%E7%87%92',
+    quality: '神話',
+  },
+  '面飾‧貓咪鯛魚燒(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10404.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55680-%E9%9D%A2%E9%A3%BE%E8%B2%93%E5%92%AA%E9%AF%9B%E9%AD%9A%E7%87%92',
+    quality: '永恆',
+  },
+  '面飾‧小雞鯛魚燒(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10405.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55681-%E9%9D%A2%E9%A3%BE%E5%B0%8F%E9%9B%9E%E9%AF%9B%E9%AD%9A%E7%87%92',
+    quality: '永恆',
+  },
+  玫瑰金自選禮盒I: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/63974-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92i',
+    quality: '神話',
+  },
   玫瑰金自選禮盒II: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -618,6 +648,24 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/60933-%E7%89%B9%E6%95%88%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E8%87%AA%E9%81%B8%E7%AE%B1',
     quality: '神話',
   },
+  剛射套裝自選箱: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80128.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64928-%E5%89%9B%E5%B0%84%E5%A5%97%E8%A3%9D%E8%87%AA%E9%81%B8%E7%AE%B1',
+    quality: '神話',
+  },
+  鬼刀套裝自選箱: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80128.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64927-%E9%AC%BC%E5%88%80%E5%A5%97%E8%A3%9D%E8%87%AA%E9%81%B8%E7%AE%B1',
+    quality: '神話',
+  },
+  '2025收藏品自選禮盒II': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00377.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/60957-2025%E6%94%B6%E8%97%8F%E5%93%81%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92ii',
+    quality: '神話',
+  },
   四階星能精魄禮盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
     dataURL:
@@ -653,6 +701,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80747.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/41921-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E5%B0%8F%E8%8E%89%E5%A1%94',
+    quality: '史詩',
+  },
+  '誓約星羽‧貝兒': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81091.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41856-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E8%B2%9D%E5%85%92',
     quality: '史詩',
   },
   '蒼誓金羽‧娜塔莎': {
@@ -751,6 +805,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80870.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/42099-%E8%BC%9D%E5%A4%9C%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
+    quality: '神話',
+  },
+  '傘華‧蒼誓召喚法陣': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80868.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57264-%E5%82%98%E8%8F%AF%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
     quality: '神話',
   },
   '稱號兌換券‧⚔️永劫': {
