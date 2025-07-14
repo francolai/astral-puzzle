@@ -22,7 +22,7 @@ thirdRow.addPrize(new Prize('星界碎塊', 20));
 thirdRow.addPrize(new Prize('高級掉寶提升祝福', 42.775));
 thirdRow.addPrize(new Prize('面飾‧貓咪鯛魚燒(金)', 1));
 thirdRow.addPrize(new Prize('面飾‧小雞鯛魚燒(金)', 1));
-thirdRow.addPrize(new Prize('九星必過飾品強化卷', 0.225, 3));
+thirdRow.addPrize(new Prize('九星必過戰利品強化卷', 0.225, 3));
 thirdRow.addPrize(new Prize('掉寶+3護符', 35));
 
 const fourthRow = new PrizePool();
@@ -36,7 +36,7 @@ fourthRow.addPrize(new Prize('掉寶+4護符', 35));
 const fifthRow = new PrizePool();
 fifthRow.addPrize(new Prize('星界碎塊', 35));
 fifthRow.addPrize(new Prize('星級飾品裝備強化卷', 20.687));
-fifthRow.addPrize(new Prize('傘華‧蒼誓召喚法陣', 0.193, 5));
+fifthRow.addPrize(new Prize('傘華‧蒼誓召喚法陣', 0.193));
 fifthRow.addPrize(new Prize('輝光星靈自選箱I', 0.241));
 fifthRow.addPrize(new Prize('2025收藏品自選禮盒II', 0.386));
 fifthRow.addPrize(new Prize('掉寶+5護符', 43.493));

@@ -430,6 +430,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55681-%E9%9D%A2%E9%A3%BE%E5%B0%8F%E9%9B%9E%E9%AF%9B%E9%AD%9A%E7%87%92',
     quality: '永恆',
   },
+  '背飾‧解析型未來通訊(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60297.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57796-%E8%83%8C%E9%A3%BE%E8%A7%A3%E6%9E%90%E5%9E%8B%E6%9C%AA%E4%BE%86%E9%80%9A%E8%A8%8A',
+    quality: '神話',
+  },
+  '背飾‧追蹤型未來通訊(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60298.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57797-%E8%83%8C%E9%A3%BE%E8%BF%BD%E8%B9%A4%E5%9E%8B%E6%9C%AA%E4%BE%86%E9%80%9A%E8%A8%8A',
+    quality: '神話',
+  },
+  '背飾‧解析型未來通訊(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60297.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57798-%E8%83%8C%E9%A3%BE%E8%A7%A3%E6%9E%90%E5%9E%8B%E6%9C%AA%E4%BE%86%E9%80%9A%E8%A8%8A',
+    quality: '永恆',
+  },
+  '背飾‧追蹤型未來通訊(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60298.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57799-%E8%83%8C%E9%A3%BE%E8%BF%BD%E8%B9%A4%E5%9E%8B%E6%9C%AA%E4%BE%86%E9%80%9A%E8%A8%8A',
+    quality: '永恆',
+  },
   玫瑰金自選禮盒I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -452,6 +476,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64274-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92v',
+    quality: '神話',
+  },
+  玫瑰金自選禮盒VII: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64956-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92vii',
     quality: '神話',
   },
   莉貝菈的星靈契約書: {
@@ -660,6 +690,25 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64927-%E9%AC%BC%E5%88%80%E5%A5%97%E8%A3%9D%E8%87%AA%E9%81%B8%E7%AE%B1',
     quality: '神話',
   },
+  蟲舞套裝自選箱: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80128.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64929-%E8%9F%B2%E8%88%9E%E5%A5%97%E8%A3%9D%E8%87%AA%E9%81%B8%E7%AE%B1',
+    quality: '神話',
+  },
+  殘音套裝自選箱: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80128.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64930-%E6%AE%98%E9%9F%B3%E5%A5%97%E8%A3%9D%E8%87%AA%E9%81%B8%E7%AE%B1',
+    quality: '神話',
+  },
+  特殊稱號自選箱II: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80242.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/60956-%E7%89%B9%E6%AE%8A%E7%A8%B1%E8%99%9F%E8%87%AA%E9%81%B8%E7%AE%B1ii',
+    quality: '神話',
+  },
+
   '2025收藏品自選禮盒II': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00377.png',
     dataURL:
@@ -824,6 +873,12 @@ const PrizeDatabase = {
     dataURL:
       'https://www.astraltaledb.com/tw/item/42097-%E9%AD%94%E7%8E%8B%E8%AD%B7%E7%AC%A6',
     quality: '神話',
+  },
+  '圖形稱號．夏日(特效)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81295.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45617-%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E5%A4%8F%E6%97%A5%E7%89%B9%E6%95%88',
+    quality: '史詩',
   },
 };
 
