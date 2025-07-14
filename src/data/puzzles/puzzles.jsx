@@ -1,3 +1,4 @@
+import AstralPuzzle250710 from '../../components/puzzles/AstralPuzzle250710';
 import AstralPuzzle250703 from '../../components/puzzles/AstralPuzzle250703';
 import AstralPuzzle250626 from '../../components/puzzles/AstralPuzzle250626';
 import AstralPuzzle250619 from '../../components/puzzles/AstralPuzzle250619';
@@ -9,8 +10,9 @@ import AstralPuzzle250515 from '../../components/puzzles/AstralPuzzle250515';
 import AstralPuzzle250508 from '../../components/puzzles/AstralPuzzle250508';
 import AstralPuzzle250430 from '../../components/puzzles/AstralPuzzle250430';
 
-const lastUpdate = '2025/07/03'; // Last update date for the puzzles
+const lastUpdate = '2025/07/10'; // Last update date for the puzzles
 const puzzles = new Map([
+  ['2025/07/10', <AstralPuzzle250710 />],
   ['2025/07/03', <AstralPuzzle250703 />],
   ['2025/06/26', <AstralPuzzle250626 />],
   ['2025/06/19', <AstralPuzzle250619 />],
