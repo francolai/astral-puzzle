@@ -153,6 +153,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47203-%E8%BF%91%E6%88%B0%E4%B9%8B%E6%80%92%E6%88%B0%E5%BE%BD',
     quality: '神話',
   },
+  四極傳說戰徽: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47212-%E5%9B%9B%E6%A5%B5%E5%82%B3%E8%AA%AA%E6%88%B0%E5%BE%BD',
+    quality: '永恆',
+  },
   傳說戰徽鍛造坩堝: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00228.png',
     dataURL:
@@ -454,6 +460,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57799-%E8%83%8C%E9%A3%BE%E8%BF%BD%E8%B9%A4%E5%9E%8B%E6%9C%AA%E4%BE%86%E9%80%9A%E8%A8%8A',
     quality: '永恆',
   },
+  '武器‧震天三日月(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WE2801.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54481-%E6%AD%A6%E5%99%A8%E9%9C%87%E5%A4%A9%E4%B8%89%E6%97%A5%E6%9C%88',
+    quality: '神話',
+  },
+  '武器‧肅月三日月(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WE2901.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54482-%E6%AD%A6%E5%99%A8%E8%82%85%E6%9C%88%E4%B8%89%E6%97%A5%E6%9C%88',
+    quality: '神話',
+  },
+  '武器‧震天三日月(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WE2801.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55949-%E6%AD%A6%E5%99%A8%E9%9C%87%E5%A4%A9%E4%B8%89%E6%97%A5%E6%9C%88',
+    quality: '永恆',
+  },
+  '武器‧肅月三日月(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WE2901.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55950-%E6%AD%A6%E5%99%A8%E8%82%85%E6%9C%88%E4%B8%89%E6%97%A5%E6%9C%88',
+    quality: '永恆',
+  },
   玫瑰金自選禮盒I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -482,6 +512,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64956-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92vii',
+    quality: '神話',
+  },
+  玫瑰金自選禮盒VIII: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64957-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92viii',
     quality: '神話',
   },
   莉貝菈的星靈契約書: {
@@ -579,6 +615,24 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80777.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40999-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E9%AD%94%E7%A0%B2',
+    quality: '史詩',
+  },
+  '混能精魄‧拳聖': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80776.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40998-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E6%8B%B3%E8%81%96',
+    quality: '史詩',
+  },
+  '混能精魄‧劍豪': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80778.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41000-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E5%8A%8D%E8%B1%AA',
+    quality: '史詩',
+  },
+  '混能精魄‧龍騎': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80775.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40997-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E9%BE%8D%E9%A8%8E',
     quality: '史詩',
   },
 
@@ -758,6 +812,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41856-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E8%B2%9D%E5%85%92',
     quality: '史詩',
   },
+  '誓約星羽‧蕾娜': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81084.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41850-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E8%95%BE%E5%A8%9C',
+    quality: '史詩',
+  },
   '蒼誓金羽‧娜塔莎': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81080.png',
     dataURL:
@@ -862,6 +922,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57264-%E5%82%98%E8%8F%AF%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
     quality: '神話',
   },
+  '凜冬‧蒼誓召喚法陣': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80872.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57259-%E5%87%9C%E5%86%AC%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
+    quality: '神話',
+  },
   '稱號兌換券‧⚔️永劫': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00001.png',
     dataURL:
@@ -874,10 +940,22 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/42097-%E9%AD%94%E7%8E%8B%E8%AD%B7%E7%AC%A6',
     quality: '神話',
   },
+  霜凍湯匙: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W13301.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42116-%E9%9C%9C%E5%87%8D%E6%B9%AF%E5%8C%99',
+    quality: '神話',
+  },
   '圖形稱號．夏日(特效)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81295.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/45617-%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E5%A4%8F%E6%97%A5%E7%89%B9%E6%95%88',
+    quality: '史詩',
+  },
+  時尚布料大禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80054.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64893-%E6%99%82%E5%B0%9A%E5%B8%83%E6%96%99%E5%A4%A7%E7%A6%AE%E7%9B%92',
     quality: '史詩',
   },
 };
