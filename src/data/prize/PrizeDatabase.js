@@ -484,6 +484,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55950-%E6%AD%A6%E5%99%A8%E8%82%85%E6%9C%88%E4%B8%89%E6%97%A5%E6%9C%88',
     quality: '永恆',
   },
+  '手染服飾‧夏日沙灘褲(男)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20038.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53776-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E5%A4%8F%E6%97%A5%E6%B2%99%E7%81%98%E8%A4%B2%E7%94%B7',
+    quality: '神話',
+  },
+  '手染服飾‧海風輕語(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20432.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57847-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B5%B7%E9%A2%A8%E8%BC%95%E8%AA%9E%E5%A5%B3',
+    quality: '神話',
+  },
+  '手染服飾‧夏日沙灘褲(男)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20038.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55367-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E5%A4%8F%E6%97%A5%E6%B2%99%E7%81%98%E8%A4%B2%E7%94%B7',
+    quality: '永恆',
+  },
+  '手染服飾‧海風輕語(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20432.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57849-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B5%B7%E9%A2%A8%E8%BC%95%E8%AA%9E%E5%A5%B3',
+    quality: '永恆',
+  },
   玫瑰金自選禮盒I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -500,6 +524,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64272-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92iii',
+    quality: '神話',
+  },
+  玫瑰金自選禮盒IV: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64273-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92iv',
     quality: '神話',
   },
   玫瑰金自選禮盒V: {
@@ -775,6 +805,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64857-%E5%9B%9B%E9%9A%8E%E6%98%9F%E8%83%BD%E7%B2%BE%E9%AD%84%E7%A6%AE%E7%9B%92',
     quality: '一般',
   },
+  五階星能精魄隨機禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64014-%E4%BA%94%E9%9A%8E%E6%98%9F%E8%83%BD%E7%B2%BE%E9%AD%84%E9%9A%A8%E6%A9%9F%E7%A6%AE%E7%9B%92',
+    quality: '神話',
+  },
   二階日能精魄禮盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
     dataURL:
@@ -872,6 +908,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/60942-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E8%87%AA%E9%81%B8%E5%8C%85iii',
     quality: '史詩',
   },
+  混能精魄自選包IV: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64964-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E8%87%AA%E9%81%B8%E5%8C%85iv',
+    quality: '史詩',
+  },
 
   未鑑定的S級滑翔翼外觀附魔福袋: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80053.png',
@@ -946,6 +988,13 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/42116-%E9%9C%9C%E5%87%8D%E6%B9%AF%E5%8C%99',
     quality: '神話',
   },
+  超級頭好壯壯肉肉: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00070.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42044-%E8%B6%85%E7%B4%9A%E9%A0%AD%E5%A5%BD%E5%A3%AF%E5%A3%AF%E8%82%89%E8%82%89',
+    quality: '神話',
+  },
+
   '圖形稱號．夏日(特效)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81295.png',
     dataURL:
