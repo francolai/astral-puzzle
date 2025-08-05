@@ -9,6 +9,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/45332-%E6%98%9F%E7%9F%B3%E7%A2%8E%E5%A1%8A',
     quality: '一般',
   },
+  時裝重組卷軸: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80123.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40123-%E6%99%82%E8%A3%9D%E9%87%8D%E7%B5%84%E5%8D%B7%E8%BB%B8',
+    quality: '稀有',
+  },
   高級職業經驗提升祝福: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80130.png',
     dataURL:
@@ -31,6 +37,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80109.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40056-%E6%98%9F%E9%9D%88%E7%BE%88%E7%B5%86%E5%AF%B6%E7%9F%B3',
+    quality: '一般',
+  },
+  高級時裝染色劑福袋: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80052.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/63637-%E9%AB%98%E7%B4%9A%E6%99%82%E8%A3%9D%E6%9F%93%E8%89%B2%E5%8A%91%E7%A6%8F%E8%A2%8B',
     quality: '一般',
   },
   星靈昇華石: {
@@ -508,6 +520,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57849-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E6%B5%B7%E9%A2%A8%E8%BC%95%E8%AA%9E%E5%A5%B3',
     quality: '永恆',
   },
+  '背飾‧悠然海洋幻螈(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60301.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57858-%E8%83%8C%E9%A3%BE%E6%82%A0%E7%84%B6%E6%B5%B7%E6%B4%8B%E5%B9%BB%E8%9E%88',
+    quality: '神話',
+  },
+  '背飾‧活力海洋幻螈(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60302.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57859-%E8%83%8C%E9%A3%BE%E6%B4%BB%E5%8A%9B%E6%B5%B7%E6%B4%8B%E5%B9%BB%E8%9E%88',
+    quality: '神話',
+  },
+  '背飾‧悠然海洋幻螈(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60301.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57860-%E8%83%8C%E9%A3%BE%E6%82%A0%E7%84%B6%E6%B5%B7%E6%B4%8B%E5%B9%BB%E8%9E%88',
+    quality: '永恆',
+  },
+  '背飾‧活力海洋幻螈(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60302.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57861-%E8%83%8C%E9%A3%BE%E6%B4%BB%E5%8A%9B%E6%B5%B7%E6%B4%8B%E5%B9%BB%E8%9E%88',
+    quality: '永恆',
+  },
   玫瑰金自選禮盒I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -584,6 +620,18 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80562.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/41480-%E7%9E%B3%E8%88%87%E5%A5%8F%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
+    quality: '稀有',
+  },
+  夏日女王蕾娜的星靈契約書: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80562.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40632-%E5%A4%8F%E6%97%A5%E5%A5%B3%E7%8E%8B%E8%95%BE%E5%A8%9C%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
+    quality: '稀有',
+  },
+  夏夜鬼刀凜的星靈契約書: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80562.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40896-%E5%A4%8F%E5%A4%9C%E9%AC%BC%E5%88%80%E5%87%9C%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
     quality: '稀有',
   },
   殘響風笛: {
@@ -750,6 +798,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/60934-%E8%BC%9D%E5%85%89%E6%98%9F%E9%9D%88%E8%87%AA%E9%81%B8%E7%AE%B1i',
     quality: '神話',
   },
+  夏夜鬼刀凜護身符: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81161.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41889-%E5%A4%8F%E5%A4%9C%E9%AC%BC%E5%88%80%E5%87%9C%E8%AD%B7%E8%BA%AB%E7%AC%A6',
+    quality: '神話',
+  },
   特殊小護身符收藏寶盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
     dataURL:
@@ -894,6 +948,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64865-%E6%98%9F%E5%85%89%E6%98%9F%E9%9D%885%E6%98%9F%E6%BB%BF%E8%B2%AB%E5%8C%85ii',
+    quality: '神話',
+  },
+  冥夜鬼刀五星滿貫禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80056.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/63940-%E5%86%A5%E5%A4%9C%E9%AC%BC%E5%88%80%E4%BA%94%E6%98%9F%E6%BB%BF%E8%B2%AB%E7%A6%AE%E7%9B%92',
     quality: '神話',
   },
   混能精魄自選包II: {
