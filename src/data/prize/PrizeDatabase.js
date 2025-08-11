@@ -544,6 +544,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57861-%E8%83%8C%E9%A3%BE%E6%B4%BB%E5%8A%9B%E6%B5%B7%E6%B4%8B%E5%B9%BB%E8%9E%88',
     quality: '永恆',
   },
+  '武器‧夢魘魔法獨角獸(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W95601.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54127-%E6%AD%A6%E5%99%A8%E5%A4%A2%E9%AD%98%E9%AD%94%E6%B3%95%E7%8D%A8%E8%A7%92%E7%8D%B8',
+    quality: '神話',
+  },
+  '武器‧夢幻魔法獨角獸(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W95501.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54126-%E6%AD%A6%E5%99%A8%E5%A4%A2%E5%B9%BB%E9%AD%94%E6%B3%95%E7%8D%A8%E8%A7%92%E7%8D%B8',
+    quality: '神話',
+  },
+  '武器‧夢魘魔法獨角獸(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W95601.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55707-%E6%AD%A6%E5%99%A8%E5%A4%A2%E9%AD%98%E9%AD%94%E6%B3%95%E7%8D%A8%E8%A7%92%E7%8D%B8',
+    quality: '永恆',
+  },
+  '武器‧夢幻魔法獨角獸(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W95501.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55706-%E6%AD%A6%E5%99%A8%E5%A4%A2%E5%B9%BB%E9%AD%94%E6%B3%95%E7%8D%A8%E8%A7%92%E7%8D%B8',
+    quality: '永恆',
+  },
   玫瑰金自選禮盒I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -711,6 +735,18 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80775.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40997-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E9%BE%8D%E9%A8%8E',
+    quality: '史詩',
+  },
+  '混能精魄‧秘術': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80774.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40996-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E7%A7%98%E8%A1%93',
+    quality: '史詩',
+  },
+  '混能精魄‧魔樂': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80685.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/40780-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E9%AD%94%E6%A8%82',
     quality: '史詩',
   },
 
@@ -1046,6 +1082,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/W13301.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/42116-%E9%9C%9C%E5%87%8D%E6%B9%AF%E5%8C%99',
+    quality: '神話',
+  },
+  將軍魂: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10555.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45635-%E5%B0%87%E8%BB%8D%E9%AD%82',
     quality: '神話',
   },
   超級頭好壯壯肉肉: {
