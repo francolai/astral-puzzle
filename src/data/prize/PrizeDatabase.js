@@ -568,6 +568,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55706-%E6%AD%A6%E5%99%A8%E5%A4%A2%E5%B9%BB%E9%AD%94%E6%B3%95%E7%8D%A8%E8%A7%92%E7%8D%B8',
     quality: '永恆',
   },
+  '武器‧喵喵宇宙星球(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WJ0601.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47180-%E6%AD%A6%E5%99%A8%E5%96%B5%E5%96%B5%E5%AE%87%E5%AE%99%E6%98%9F%E7%90%83',
+    quality: '神話',
+  },
+  '武器‧喵喵電子星球(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WJ0501.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47181-%E6%AD%A6%E5%99%A8%E5%96%B5%E5%96%B5%E9%9B%BB%E5%AD%90%E6%98%9F%E7%90%83',
+    quality: '神話',
+  },
+  '武器‧喵喵宇宙星球(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WJ0601.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47182-%E6%AD%A6%E5%99%A8%E5%96%B5%E5%96%B5%E5%AE%87%E5%AE%99%E6%98%9F%E7%90%83',
+    quality: '永恆',
+  },
+  '武器‧喵喵電子星球(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WJ0501.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47183-%E6%AD%A6%E5%99%A8%E5%96%B5%E5%96%B5%E9%9B%BB%E5%AD%90%E6%98%9F%E7%90%83',
+    quality: '永恆',
+  },
   玫瑰金自選禮盒I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -816,6 +840,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64299-%E9%9D%88%E7%8D%B8%E8%AD%B7%E8%BA%AB%E7%AC%A6%E8%87%AA%E9%81%B8%E7%AE%B1',
     quality: '神話',
   },
+  吉祥物護身符寶盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80056.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/62834-%E5%90%89%E7%A5%A5%E7%89%A9%E8%AD%B7%E8%BA%AB%E7%AC%A6%E5%AF%B6%E7%9B%92',
+    quality: '神話',
+  },
   蠻牛之力自選箱: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80056.png',
     dataURL:
@@ -944,6 +974,18 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41850-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E8%95%BE%E5%A8%9C',
     quality: '史詩',
   },
+  '誓約星羽‧冰雪‧諾諾': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80697.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53446-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E5%86%B0%E9%9B%AA%E8%AB%BE%E8%AB%BE',
+    quality: '史詩',
+  },
+  '誓約星羽‧暖心‧諾諾': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80699.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53447-%E8%AA%93%E7%B4%84%E6%98%9F%E7%BE%BD%E6%9A%96%E5%BF%83%E8%AB%BE%E8%AB%BE',
+    quality: '史詩',
+  },
   '蒼誓金羽‧娜塔莎': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81080.png',
     dataURL:
@@ -1066,6 +1108,18 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57259-%E5%87%9C%E5%86%AC%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
     quality: '神話',
   },
+  '冰雪‧蒼誓召喚法陣': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80872.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57221-%E5%86%B0%E9%9B%AA%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
+    quality: '神話',
+  },
+  '暖心‧蒼誓召喚法陣': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80869.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57222-%E6%9A%96%E5%BF%83%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3',
+    quality: '神話',
+  },
   '稱號兌換券‧⚔️永劫': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00001.png',
     dataURL:
@@ -1088,6 +1142,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K10555.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/45635-%E5%B0%87%E8%BB%8D%E9%AD%82',
+    quality: '神話',
+  },
+  碧藍星的拖鞋: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/A50009.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47227-%E7%A2%A7%E8%97%8D%E6%98%9F%E7%9A%84%E6%8B%96%E9%9E%8B',
     quality: '神話',
   },
   超級頭好壯壯肉肉: {
