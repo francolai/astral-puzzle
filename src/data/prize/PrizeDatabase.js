@@ -141,6 +141,18 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/45392-%E8%B5%A4%E6%97%A5%E5%BE%BD%E5%8D%B0',
     quality: '稀有',
   },
+  狂刃之襲戰徽: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45336-%E7%8B%82%E5%88%83%E4%B9%8B%E8%A5%B2%E6%88%B0%E5%BE%BD',
+    quality: '史詩',
+  },
+  加農之殤戰徽: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45337-%E5%8A%A0%E8%BE%B2%E4%B9%8B%E6%AE%A4%E6%88%B0%E5%BE%BD',
+    quality: '史詩',
+  },
   元素之風戰徽: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80091.png',
     dataURL:
@@ -592,6 +604,31 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47183-%E6%AD%A6%E5%99%A8%E5%96%B5%E5%96%B5%E9%9B%BB%E5%AD%90%E6%98%9F%E7%90%83',
     quality: '永恆',
   },
+  '髮飾‧球球頑皮海豹(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47147-%E9%AB%AE%E9%A3%BE%E7%90%83%E7%90%83%E9%A0%91%E7%9A%AE%E6%B5%B7%E8%B1%B9',
+    quality: '永恆',
+  },
+  '髮飾‧風速疾風丸(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K30074.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47148-%E9%AB%AE%E9%A3%BE%E9%A2%A8%E9%80%9F%E7%96%BE%E9%A2%A8%E4%B8%B8',
+    quality: '永恆',
+  },
+  '服飾‧好想兔(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20443.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/58114-%E6%9C%8D%E9%A3%BE%E5%A5%BD%E6%83%B3%E5%85%94',
+    quality: '永恆',
+  },
+  '服飾‧小賤狗(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20444.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/58115-%E6%9C%8D%E9%A3%BE%E5%B0%8F%E8%B3%A4%E7%8B%97',
+    quality: '永恆',
+  },
+
   玫瑰金自選禮盒I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
@@ -680,6 +717,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80562.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/40896-%E5%A4%8F%E5%A4%9C%E9%AC%BC%E5%88%80%E5%87%9C%E7%9A%84%E6%98%9F%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
+    quality: '稀有',
+  },
+  '豪兔路斯‧好想兔靈契約書': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80562.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42133-%E8%B1%AA%E5%85%94%E8%B7%AF%E6%96%AF%E5%A5%BD%E6%83%B3%E5%85%94%E9%9D%88%E5%A5%91%E7%B4%84%E6%9B%B8',
     quality: '稀有',
   },
   殘響風笛: {
@@ -1016,6 +1059,13 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64020-%E9%AB%98%E7%B4%9A%E6%88%B0%E5%BE%BD%E6%BB%BF%E8%B2%AB%E5%8C%85',
     quality: '神話',
   },
+
+  命運勇者星靈禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80054.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64031-%E5%91%BD%E9%81%8B%E5%8B%87%E8%80%85%E6%98%9F%E9%9D%88%E7%A6%AE%E7%9B%92',
+    quality: '史詩',
+  },
   星光星靈5星滿貫包I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
     dataURL:
@@ -1150,6 +1200,24 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47227-%E7%A2%A7%E8%97%8D%E6%98%9F%E7%9A%84%E6%8B%96%E9%9E%8B',
     quality: '神話',
   },
+  緋紅星的殺蟲劑: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00197.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47228-%E7%B7%8B%E7%B4%85%E6%98%9F%E7%9A%84%E6%AE%BA%E8%9F%B2%E5%8A%91',
+    quality: '神話',
+  },
+  小莉塔的拳套: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WC1701.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47230-%E5%B0%8F%E8%8E%89%E5%A1%94%E7%9A%84%E6%8B%B3%E5%A5%97',
+    quality: '神話',
+  },
+  愛莉榭緹的銀湯匙: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W13501.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47229-%E6%84%9B%E8%8E%89%E6%A6%AD%E7%B7%B9%E7%9A%84%E9%8A%80%E6%B9%AF%E5%8C%99',
+    quality: '神話',
+  },
   超級頭好壯壯肉肉: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00070.png',
     dataURL:
@@ -1168,6 +1236,11 @@ const PrizeDatabase = {
     dataURL:
       'https://www.astraltaledb.com/tw/item/64893-%E6%99%82%E5%B0%9A%E5%B8%83%E6%96%99%E5%A4%A7%E7%A6%AE%E7%9B%92',
     quality: '史詩',
+  },
+  JackPot: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80198.png',
+    dataURL: '',
+    quality: '神話',
   },
 };
 
