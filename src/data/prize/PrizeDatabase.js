@@ -604,6 +604,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47183-%E6%AD%A6%E5%99%A8%E5%96%B5%E5%96%B5%E9%9B%BB%E5%AD%90%E6%98%9F%E7%90%83',
     quality: '永恆',
   },
+  '背飾‧暗戀告白綿羊(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60292.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57704-%E8%83%8C%E9%A3%BE%E6%9A%97%E6%88%80%E5%91%8A%E7%99%BD%E7%B6%BF%E7%BE%8A',
+    quality: '神話',
+  },
+  '背飾‧甜戀告白綿羊(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60291.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57703-%E8%83%8C%E9%A3%BE%E7%94%9C%E6%88%80%E5%91%8A%E7%99%BD%E7%B6%BF%E7%BE%8A',
+    quality: '神話',
+  },
+  '背飾‧暗戀告白綿羊(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60292.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57706-%E8%83%8C%E9%A3%BE%E6%9A%97%E6%88%80%E5%91%8A%E7%99%BD%E7%B6%BF%E7%BE%8A',
+    quality: '永恆',
+  },
+  '背飾‧甜戀告白綿羊(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60291.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57705-%E8%83%8C%E9%A3%BE%E7%94%9C%E6%88%80%E5%91%8A%E7%99%BD%E7%B6%BF%E7%BE%8A',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -754,6 +778,12 @@ const PrizeDatabase = {
     dataURL:
       'https://www.astraltaledb.com/tw/item/41693-%E7%B2%BE%E5%AF%86%E9%9B%BB%E8%B7%AF-%E6%AA%A2%E6%B8%AC%E5%84%80',
     quality: '史詩',
+  },
+  '精密電路-弱點檢測': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10615.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41542-%E7%B2%BE%E5%AF%86%E9%9B%BB%E8%B7%AF-%E5%BC%B1%E9%BB%9E%E6%AA%A2%E6%B8%AC',
+    quality: '神話',
   },
 
   '混能精魄‧龍偶使': {
@@ -972,6 +1002,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64014-%E4%BA%94%E9%9A%8E%E6%98%9F%E8%83%BD%E7%B2%BE%E9%AD%84%E9%9A%A8%E6%A9%9F%E7%A6%AE%E7%9B%92',
+    quality: '神話',
+  },
+  四階月能精魄禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64983-%E5%9B%9B%E9%9A%8E%E6%9C%88%E8%83%BD%E7%B2%BE%E9%AD%84%E7%A6%AE%E7%9B%92',
     quality: '神話',
   },
   二階日能精魄禮盒: {
@@ -1216,6 +1252,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/W13501.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47229-%E6%84%9B%E8%8E%89%E6%A6%AD%E7%B7%B9%E7%9A%84%E9%8A%80%E6%B9%AF%E5%8C%99',
+    quality: '神話',
+  },
+  單身狗的眼淚: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00190.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47236-%E5%96%AE%E8%BA%AB%E7%8B%97%E7%9A%84%E7%9C%BC%E6%B7%9A',
     quality: '神話',
   },
   超級頭好壯壯肉肉: {

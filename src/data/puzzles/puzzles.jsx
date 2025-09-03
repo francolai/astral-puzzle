@@ -1,6 +1,7 @@
-import AstralPuzzle250820 from '../../components/puzzles/AstralPuzzle250820';
-import AstralPuzzle250813 from '../../components/puzzles/AstralPuzzle250813';
-import AstralPuzzle250806 from '../../components/puzzles/AstralPuzzle250806';
+import AstralPuzzle250828 from '../../components/puzzles/AstralPuzzle250828';
+import AstralPuzzle250821 from '../../components/puzzles/AstralPuzzle250821';
+import AstralPuzzle250814 from '../../components/puzzles/AstralPuzzle250814';
+import AstralPuzzle250807 from '../../components/puzzles/AstralPuzzle250807';
 import AstralPuzzle250731 from '../../components/puzzles/AstralPuzzle250731';
 import AstralPuzzle250724 from '../../components/puzzles/AstralPuzzle250724';
 import AstralPuzzle250717 from '../../components/puzzles/AstralPuzzle250717';
@@ -16,11 +17,12 @@ import AstralPuzzle250515 from '../../components/puzzles/AstralPuzzle250515';
 import AstralPuzzle250508 from '../../components/puzzles/AstralPuzzle250508';
 import AstralPuzzle250430 from '../../components/puzzles/AstralPuzzle250430';
 
-const lastUpdate = '2025/08/20'; // Last update date for the puzzles
+const lastUpdate = '2025/08/28'; // Last update date for the puzzles
 const puzzles = new Map([
-  ['2025/08/20', <AstralPuzzle250820 />],
-  ['2025/08/13', <AstralPuzzle250813 />],
-  ['2025/08/06', <AstralPuzzle250806 />],
+  ['2025/08/28', <AstralPuzzle250828 />],
+  ['2025/08/21', <AstralPuzzle250821 />],
+  ['2025/08/14', <AstralPuzzle250814 />],
+  ['2025/08/07', <AstralPuzzle250807 />],
   ['2025/07/31', <AstralPuzzle250731 />],
   ['2025/07/24', <AstralPuzzle250724 />],
   ['2025/07/17', <AstralPuzzle250717 />],
