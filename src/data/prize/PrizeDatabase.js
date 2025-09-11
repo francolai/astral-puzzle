@@ -628,6 +628,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57705-%E8%83%8C%E9%A3%BE%E7%94%9C%E6%88%80%E5%91%8A%E7%99%BD%E7%B6%BF%E7%BE%8A',
     quality: '永恆',
   },
+  '手染髮型‧厄夜吸血鬼(男)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10352.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54038-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E5%8E%84%E5%A4%9C%E5%90%B8%E8%A1%80%E9%AC%BC%E7%94%B7',
+    quality: '神話',
+  },
+  '手染髮型‧萬聖小魔女(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10354.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54039-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E8%90%AC%E8%81%96%E5%B0%8F%E9%AD%94%E5%A5%B3%E5%A5%B3',
+    quality: '神話',
+  },
+  '手染髮型‧厄夜吸血鬼(男)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10352.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55618-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E5%8E%84%E5%A4%9C%E5%90%B8%E8%A1%80%E9%AC%BC%E7%94%B7',
+    quality: '永恆',
+  },
+  '手染髮型‧萬聖小魔女(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10354.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55619-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E8%90%AC%E8%81%96%E5%B0%8F%E9%AD%94%E5%A5%B3%E5%A5%B3',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -681,6 +705,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64274-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92v',
+    quality: '神話',
+  },
+  玫瑰金自選禮盒VI: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00821.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64017-%E7%8E%AB%E7%91%B0%E9%87%91%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92vi',
     quality: '神話',
   },
   玫瑰金自選禮盒VII: {
@@ -1266,11 +1296,23 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/42044-%E8%B6%85%E7%B4%9A%E9%A0%AD%E5%A5%BD%E5%A3%AF%E5%A3%AF%E8%82%89%E8%82%89',
     quality: '神話',
   },
+  '超級頭好壯壯肉肉(辣)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00070.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42069-%E8%B6%85%E7%B4%9A%E9%A0%AD%E5%A5%BD%E5%A3%AF%E5%A3%AF%E8%82%89%E8%82%89%E8%BE%A3',
+    quality: '神話',
+  },
 
   '圖形稱號．夏日(特效)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81295.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/45617-%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E5%A4%8F%E6%97%A5%E7%89%B9%E6%95%88',
+    quality: '史詩',
+  },
+  '圖形稱號．鬼靈精怪(特效)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81297.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45619-%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E9%AC%BC%E9%9D%88%E7%B2%BE%E6%80%AA%E7%89%B9%E6%95%88',
     quality: '史詩',
   },
   時尚布料大禮盒: {
