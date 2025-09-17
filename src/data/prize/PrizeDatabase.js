@@ -652,6 +652,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55619-%E6%89%8B%E6%9F%93%E9%AB%AE%E5%9E%8B%E8%90%AC%E8%81%96%E5%B0%8F%E9%AD%94%E5%A5%B3%E5%A5%B3',
     quality: '永恆',
   },
+  '手染服飾‧純月之心黑(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20435.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57908-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E7%B4%94%E6%9C%88%E4%B9%8B%E5%BF%83%E5%A5%B3',
+    quality: '神話',
+  },
+  '手染服飾‧純月之心藍(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20436.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57909-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E7%B4%94%E6%9C%88%E4%B9%8B%E5%BF%83%E5%A5%B3',
+    quality: '神話',
+  },
+  '手染服飾‧純月之心黑(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20435.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57910-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E7%B4%94%E6%9C%88%E4%B9%8B%E5%BF%83%E5%A5%B3',
+    quality: '永恆',
+  },
+  '手染服飾‧純月之心藍(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20436.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57911-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E7%B4%94%E6%9C%88%E4%B9%8B%E5%BF%83%E5%A5%B3',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1289,6 +1313,12 @@ const PrizeDatabase = {
     dataURL:
       'https://www.astraltaledb.com/tw/item/47236-%E5%96%AE%E8%BA%AB%E7%8B%97%E7%9A%84%E7%9C%BC%E6%B7%9A',
     quality: '神話',
+  },
+  錢鼠的護身符: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80238.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41397-%E9%8C%A2%E9%BC%A0%E7%9A%84%E8%AD%B7%E8%BA%AB%E7%AC%A6',
+    quality: '史詩',
   },
   超級頭好壯壯肉肉: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00070.png',
