@@ -676,6 +676,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57911-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E7%B4%94%E6%9C%88%E4%B9%8B%E5%BF%83%E5%A5%B3',
     quality: '永恆',
   },
+  '背飾‧星願兔氣球(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60303.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57889-%E8%83%8C%E9%A3%BE%E6%98%9F%E9%A1%98%E5%85%94%E6%B0%A3%E7%90%83',
+    quality: '神話',
+  },
+  '背飾‧歡慶兔氣球(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60304.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57890-%E8%83%8C%E9%A3%BE%E6%AD%A1%E6%85%B6%E5%85%94%E6%B0%A3%E7%90%83',
+    quality: '神話',
+  },
+  '背飾‧星願兔氣球(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60303.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57891-%E8%83%8C%E9%A3%BE%E6%98%9F%E9%A1%98%E5%85%94%E6%B0%A3%E7%90%83',
+    quality: '永恆',
+  },
+  '背飾‧歡慶兔氣球(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60304.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57892-%E8%83%8C%E9%A3%BE%E6%AD%A1%E6%85%B6%E5%85%94%E6%B0%A3%E7%90%83',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -997,6 +1021,18 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41889-%E5%A4%8F%E5%A4%9C%E9%AC%BC%E5%88%80%E5%87%9C%E8%AD%B7%E8%BA%AB%E7%AC%A6',
     quality: '神話',
   },
+  亞倫護身符: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81075.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41809-%E4%BA%9E%E5%80%AB%E8%AD%B7%E8%BA%AB%E7%AC%A6',
+    quality: '神話',
+  },
+  蕾娜護身符: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81136.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/41872-%E8%95%BE%E5%A8%9C%E8%AD%B7%E8%BA%AB%E7%AC%A6',
+    quality: '神話',
+  },
   特殊小護身符收藏寶盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
     dataURL:
@@ -1156,6 +1192,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64031-%E5%91%BD%E9%81%8B%E5%8B%87%E8%80%85%E6%98%9F%E9%9D%88%E7%A6%AE%E7%9B%92',
     quality: '史詩',
   },
+  相由心生星靈禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80054.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64040-%E7%9B%B8%E7%94%B1%E5%BF%83%E7%94%9F%E6%98%9F%E9%9D%88%E7%A6%AE%E7%9B%92',
+    quality: '史詩',
+  },
   星光星靈5星滿貫包I: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
     dataURL:
@@ -1190,6 +1232,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80051.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64964-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E8%87%AA%E9%81%B8%E5%8C%85iv',
+    quality: '史詩',
+  },
+  混能精魄自選包V: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64041-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E8%87%AA%E9%81%B8%E5%8C%85v',
     quality: '史詩',
   },
 
@@ -1312,6 +1360,24 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00190.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47236-%E5%96%AE%E8%BA%AB%E7%8B%97%E7%9A%84%E7%9C%BC%E6%B7%9A',
+    quality: '神話',
+  },
+  黑喵之杖: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W12501.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47250-%E9%BB%91%E5%96%B5%E4%B9%8B%E6%9D%96',
+    quality: '神話',
+  },
+  冰雪女王法杖: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WB5601.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47249-%E5%86%B0%E9%9B%AA%E5%A5%B3%E7%8E%8B%E6%B3%95%E6%9D%96',
+    quality: '神話',
+  },
+  亞倫的蒼誓聖劍: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W18901.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47248-%E4%BA%9E%E5%80%AB%E7%9A%84%E8%92%BC%E8%AA%93%E8%81%96%E5%8A%8D',
     quality: '神話',
   },
   錢鼠的護身符: {
