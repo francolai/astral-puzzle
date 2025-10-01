@@ -700,6 +700,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57892-%E8%83%8C%E9%A3%BE%E6%AD%A1%E6%85%B6%E5%85%94%E6%B0%A3%E7%90%83',
     quality: '永恆',
   },
+  '手染頭飾‧甜心女僕髮帶(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10049.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53712-%E6%89%8B%E6%9F%93%E9%A0%AD%E9%A3%BE%E7%94%9C%E5%BF%83%E5%A5%B3%E5%83%95%E9%AB%AE%E5%B8%B6',
+    quality: '神話',
+  },
+  '頭飾‧帥氣黑狐耳朵(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53713-%E9%A0%AD%E9%A3%BE%E5%B8%A5%E6%B0%A3%E9%BB%91%E7%8B%90%E8%80%B3%E6%9C%B5',
+    quality: '神話',
+  },
+  '手染頭飾‧甜心女僕髮帶(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10049.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55303-%E6%89%8B%E6%9F%93%E9%A0%AD%E9%A3%BE%E7%94%9C%E5%BF%83%E5%A5%B3%E5%83%95%E9%AB%AE%E5%B8%B6',
+    quality: '永恆',
+  },
+  '頭飾‧帥氣黑狐耳朵(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55304-%E9%A0%AD%E9%A3%BE%E5%B8%A5%E6%B0%A3%E9%BB%91%E7%8B%90%E8%80%B3%E6%9C%B5',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1082,6 +1106,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/60957-2025%E6%94%B6%E8%97%8F%E5%93%81%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92ii',
     quality: '神話',
   },
+  諾諾蒼誓召喚法陣自選包: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00014.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64961-%E8%AB%BE%E8%AB%BE%E8%92%BC%E8%AA%93%E5%8F%AC%E5%96%9A%E6%B3%95%E9%99%A3%E8%87%AA%E9%81%B8%E5%8C%85',
+    quality: '神話',
+  },
   四階星能精魄禮盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
     dataURL:
@@ -1415,6 +1445,18 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80054.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64893-%E6%99%82%E5%B0%9A%E5%B8%83%E6%96%99%E5%A4%A7%E7%A6%AE%E7%9B%92',
+    quality: '史詩',
+  },
+  英文老師的點名簿: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00014.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47255-%E8%8B%B1%E6%96%87%E8%80%81%E5%B8%AB%E7%9A%84%E9%BB%9E%E5%90%8D%E7%B0%BF',
+    quality: '史詩',
+  },
+  數學老師的點名簿: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00013.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47254-%E6%95%B8%E5%AD%B8%E8%80%81%E5%B8%AB%E7%9A%84%E9%BB%9E%E5%90%8D%E7%B0%BF',
     quality: '史詩',
   },
   JackPot: {
