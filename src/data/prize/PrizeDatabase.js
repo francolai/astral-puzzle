@@ -724,6 +724,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55304-%E9%A0%AD%E9%A3%BE%E5%B8%A5%E6%B0%A3%E9%BB%91%E7%8B%90%E8%80%B3%E6%9C%B5',
     quality: '永恆',
   },
+  '頭飾‧粉萌兔兔禮帽(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10056.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53716-%E9%A0%AD%E9%A3%BE%E7%B2%89%E8%90%8C%E5%85%94%E5%85%94%E7%A6%AE%E5%B8%BD',
+    quality: '神話',
+  },
+  '頭飾‧奶油兔兔禮帽(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10055.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/53717-%E9%A0%AD%E9%A3%BE%E5%A5%B6%E6%B2%B9%E5%85%94%E5%85%94%E7%A6%AE%E5%B8%BD',
+    quality: '神話',
+  },
+  '頭飾‧粉萌兔兔禮帽(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10056.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55307-%E9%A0%AD%E9%A3%BE%E7%B2%89%E8%90%8C%E5%85%94%E5%85%94%E7%A6%AE%E5%B8%BD',
+    quality: '永恆',
+  },
+  '頭飾‧奶油兔兔禮帽(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10055.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55308-%E9%A0%AD%E9%A3%BE%E5%A5%B6%E6%B2%B9%E5%85%94%E5%85%94%E7%A6%AE%E5%B8%BD',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1270,6 +1294,18 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64041-%E6%B7%B7%E8%83%BD%E7%B2%BE%E9%AD%84%E8%87%AA%E9%81%B8%E5%8C%85v',
     quality: '史詩',
   },
+  除蟲大作戰自選禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00793.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64053-%E9%99%A4%E8%9F%B2%E5%A4%A7%E4%BD%9C%E6%88%B0%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92',
+    quality: '神話',
+  },
+  除蟲專家自選禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80639.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64052-%E9%99%A4%E8%9F%B2%E5%B0%88%E5%AE%B6%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92',
+    quality: '神話',
+  },
 
   未鑑定的S級滑翔翼外觀附魔福袋: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80053.png',
@@ -1416,6 +1452,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/41397-%E9%8C%A2%E9%BC%A0%E7%9A%84%E8%AD%B7%E8%BA%AB%E7%AC%A6',
     quality: '史詩',
   },
+  月兔的護身符: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80235.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45375-%E6%9C%88%E5%85%94%E7%9A%84%E8%AD%B7%E8%BA%AB%E7%AC%A6',
+    quality: '史詩',
+  },
   超級頭好壯壯肉肉: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00070.png',
     dataURL:
@@ -1441,6 +1483,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/45619-%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E9%AC%BC%E9%9D%88%E7%B2%BE%E6%80%AA%E7%89%B9%E6%95%88',
     quality: '史詩',
   },
+  '圖形稱號．中秋(特效)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I81299.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/45621-%E5%9C%96%E5%BD%A2%E7%A8%B1%E8%99%9F%E4%B8%AD%E7%A7%8B%E7%89%B9%E6%95%88',
+    quality: '史詩',
+  },
   時尚布料大禮盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80054.png',
     dataURL:
@@ -1458,6 +1506,12 @@ const PrizeDatabase = {
     dataURL:
       'https://www.astraltaledb.com/tw/item/47254-%E6%95%B8%E5%AD%B8%E8%80%81%E5%B8%AB%E7%9A%84%E9%BB%9E%E5%90%8D%E7%B0%BF',
     quality: '史詩',
+  },
+  中秋烤肉串: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00575.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47257-%E4%B8%AD%E7%A7%8B%E7%83%A4%E8%82%89%E4%B8%B2',
+    quality: '神話',
   },
   JackPot: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80198.png',
