@@ -772,6 +772,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/55559-%E6%AD%A6%E5%99%A8%E6%9A%B4%E8%B5%B0%E6%B0%B4%E8%B1%9A%E9%9B%BB%E9%8B%B8',
     quality: '永恆',
   },
+  '手染服飾‧元氣樂曲(男)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20394.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55000-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E5%85%83%E6%B0%A3%E6%A8%82%E6%9B%B2%E7%94%B7',
+    quality: '神話',
+  },
+  '手染服飾‧元氣樂曲(女)(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20392.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55008-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E5%85%83%E6%B0%A3%E6%A8%82%E6%9B%B2%E5%A5%B3',
+    quality: '神話',
+  },
+  '手染服飾‧元氣樂曲(男)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20394.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47042-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E5%85%83%E6%B0%A3%E6%A8%82%E6%9B%B2%E7%94%B7',
+    quality: '永恆',
+  },
+  '手染服飾‧元氣樂曲(女)(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K20392.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47044-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E5%85%83%E6%B0%A3%E6%A8%82%E6%9B%B2%E5%A5%B3',
+    quality: '永恆',
+  },
   '背飾‧童心旋轉餅乾兔(金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K60295.png',
     dataURL:
@@ -1614,10 +1638,50 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47270-%E5%A4%A7%E9%96%98%E8%9F%B9',
     quality: '史詩',
   },
+  白飯: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01092.png',
+    dataURL: 'https://www.astraltaledb.com/tw/item/47275-%E7%99%BD%E9%A3%AF',
+    quality: '史詩',
+  },
+  粗粒小麥粉: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00373.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47274-%E7%B2%97%E7%B2%92%E5%B0%8F%E9%BA%A5%E7%B2%89',
+    quality: '史詩',
+  },
+  奶油: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01417.png',
+    dataURL: 'https://www.astraltaledb.com/tw/item/47273-%E5%A5%B6%E6%B2%B9',
+    quality: '史詩',
+  },
   榮耀戰鎚: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/W23903.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47262-%E6%A6%AE%E8%80%80%E6%88%B0%E9%8E%9A',
+    quality: '神話',
+  },
+  '食譜‧蟹肉奶香義大利麵': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00005.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/35103-%E9%A3%9F%E8%AD%9C%E8%9F%B9%E8%82%89%E5%A5%B6%E9%A6%99%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5',
+    quality: '神話',
+  },
+  '食譜‧奶油蟹肉燉飯': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00005.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/35104-%E9%A3%9F%E8%AD%9C%E5%A5%B6%E6%B2%B9%E8%9F%B9%E8%82%89%E7%87%89%E9%A3%AF',
+    quality: '神話',
+  },
+  '食譜‧松茸奶香寬扁麵': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00006.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/35105-%E9%A3%9F%E8%AD%9C%E6%9D%BE%E8%8C%B8%E5%A5%B6%E9%A6%99%E5%AF%AC%E6%89%81%E9%BA%B5',
+    quality: '神話',
+  },
+  '食譜‧松茸奶油炒飯': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00006.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/35106-%E9%A3%9F%E8%AD%9C%E6%9D%BE%E8%8C%B8%E5%A5%B6%E6%B2%B9%E7%82%92%E9%A3%AF',
     quality: '神話',
   },
   JackPot: {
