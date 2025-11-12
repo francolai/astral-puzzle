@@ -844,6 +844,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47064-%E6%89%8B%E6%9F%93%E6%9C%8D%E9%A3%BE%E8%90%AC%E8%81%96%E5%8F%AF%E6%84%9B%E5%A5%B3%E5%B7%AB%E5%A5%B3',
     quality: '永恆',
   },
+  '背飾‧幽光星鑽紛羽(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60293.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57734-%E8%83%8C%E9%A3%BE%E5%B9%BD%E5%85%89%E6%98%9F%E9%91%BD%E7%B4%9B%E7%BE%BD',
+    quality: '神話',
+  },
+  '背飾‧輝光星鑽紛羽(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60294.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57735-%E8%83%8C%E9%A3%BE%E8%BC%9D%E5%85%89%E6%98%9F%E9%91%BD%E7%B4%9B%E7%BE%BD',
+    quality: '神話',
+  },
+  '背飾‧幽光星鑽紛羽(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60293.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57736-%E8%83%8C%E9%A3%BE%E5%B9%BD%E5%85%89%E6%98%9F%E9%91%BD%E7%B4%9B%E7%BE%BD',
+    quality: '永恆',
+  },
+  '背飾‧輝光星鑽紛羽(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60294.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57737-%E8%83%8C%E9%A3%BE%E8%BC%9D%E5%85%89%E6%98%9F%E9%91%BD%E7%B4%9B%E7%BE%BD',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1690,6 +1714,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47262-%E6%A6%AE%E8%80%80%E6%88%B0%E9%8E%9A',
     quality: '神話',
   },
+  聖天秤: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K30041.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47293-%E8%81%96%E5%A4%A9%E7%A7%A4',
+    quality: '神話',
+  },
   '食譜‧蟹肉奶香義大利麵': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00005.png',
     dataURL:
@@ -1748,6 +1778,18 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00003.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47289-%E7%81%AB%E7%84%B0%E7%8B%BC%E9%80%B2%E5%8C%96%E5%9C%96%E9%91%91',
+    quality: '神話',
+  },
+  兔兔炸彈: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80368.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47294-%E5%85%94%E5%85%94%E7%82%B8%E5%BD%88',
+    quality: '神話',
+  },
+  深海八爪: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00894.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47295-%E6%B7%B1%E6%B5%B7%E5%85%AB%E7%88%AA',
     quality: '神話',
   },
   JackPot: {
