@@ -31,7 +31,7 @@ fourthRow.addPrize(new Prize('星靈羈絆寶石', 33.325, 3));
 fourthRow.addPrize(new Prize('手染服飾‧元氣樂曲(男)(粉金)', 0.5));
 fourthRow.addPrize(new Prize('手染服飾‧元氣樂曲(女)(粉金)', 0.5));
 fourthRow.addPrize(new Prize('武功秘笈自選寶盒', 0.675));
-fourthRow.addPrize(new Prize('掉寶+5護符', 35));
+fourthRow.addPrize(new Prize('掉寶+4護符', 35));
 
 const fifthRow = new PrizePool();
 fifthRow.addPrize(new Prize('星界碎塊', 35));

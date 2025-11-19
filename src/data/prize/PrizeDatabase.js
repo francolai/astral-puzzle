@@ -868,6 +868,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57737-%E8%83%8C%E9%A3%BE%E8%BC%9D%E5%85%89%E6%98%9F%E9%91%BD%E7%B4%9B%E7%BE%BD',
     quality: '永恆',
   },
+  '手染髮飾‧點點蝴蝶結(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K30014.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54308-%E6%89%8B%E6%9F%93%E9%AB%AE%E9%A3%BE%E9%BB%9E%E9%BB%9E%E8%9D%B4%E8%9D%B6%E7%B5%90',
+    quality: '神話',
+  },
+  '手染髮飾‧時光仙境緞帶(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K30051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/54884-%E6%89%8B%E6%9F%93%E9%AB%AE%E9%A3%BE%E6%99%82%E5%85%89%E4%BB%99%E5%A2%83%E7%B7%9E%E5%B8%B6',
+    quality: '神話',
+  },
+  '手染髮飾‧點點蝴蝶結(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K30014.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/55881-%E6%89%8B%E6%9F%93%E9%AB%AE%E9%A3%BE%E9%BB%9E%E9%BB%9E%E8%9D%B4%E8%9D%B6%E7%B5%90',
+    quality: '永恆',
+  },
+  '手染髮飾‧時光仙境緞帶(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K30051.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47018-%E6%89%8B%E6%9F%93%E9%AB%AE%E9%A3%BE%E6%99%82%E5%85%89%E4%BB%99%E5%A2%83%E7%B7%9E%E5%B8%B6',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1249,6 +1273,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/60956-%E7%89%B9%E6%AE%8A%E7%A8%B1%E8%99%9F%E8%87%AA%E9%81%B8%E7%AE%B1ii',
     quality: '神話',
   },
+  特殊稱號自選箱III: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80242.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64055-%E7%89%B9%E6%AE%8A%E7%A8%B1%E8%99%9F%E8%87%AA%E9%81%B8%E7%AE%B1iii',
+    quality: '神話',
+  },
 
   '2025收藏品自選禮盒II': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00377.png',
@@ -1626,6 +1656,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/42069-%E8%B6%85%E7%B4%9A%E9%A0%AD%E5%A5%BD%E5%A3%AF%E5%A3%AF%E8%82%89%E8%82%89%E8%BE%A3',
     quality: '神話',
   },
+  香辣檸檬雞翅: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01006.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/42101-%E9%A6%99%E8%BE%A3%E6%AA%B8%E6%AA%AC%E9%9B%9E%E7%BF%85',
+    quality: '神話',
+  },
 
   '圖形稱號．夏日(特效)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I81295.png',
@@ -1679,6 +1715,18 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00201.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47265-%E8%87%89%E7%B4%85%E7%82%B8%E5%BD%88',
+    quality: '史詩',
+  },
+  貴族棒棒糖: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K10095.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47304-%E8%B2%B4%E6%97%8F%E6%A3%92%E6%A3%92%E7%B3%96',
+    quality: '史詩',
+  },
+  傳統草仔粿: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01087.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47305-%E5%82%B3%E7%B5%B1%E8%8D%89%E4%BB%94%E7%B2%BF',
     quality: '史詩',
   },
   松茸: {
@@ -1790,6 +1838,12 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00894.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47295-%E6%B7%B1%E6%B5%B7%E5%85%AB%E7%88%AA',
+    quality: '神話',
+  },
+  狙擊之眼: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W53302.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47306-%E7%8B%99%E6%93%8A%E4%B9%8B%E7%9C%BC',
     quality: '神話',
   },
   JackPot: {

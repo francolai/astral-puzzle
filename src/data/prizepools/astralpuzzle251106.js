@@ -31,7 +31,7 @@ fourthRow.addPrize(new Prize('星靈羈絆寶石', 33.676, 3));
 fourthRow.addPrize(new Prize('背飾‧幽光星鑽紛羽(粉金)', 0.5));
 fourthRow.addPrize(new Prize('背飾‧輝光星鑽紛羽(粉金)', 0.5));
 fourthRow.addPrize(new Prize('五階星能精魄隨機禮盒', 0.324));
-fourthRow.addPrize(new Prize('掉寶+5護符', 35));
+fourthRow.addPrize(new Prize('掉寶+4護符', 35));
 
 const fifthRow = new PrizePool();
 fifthRow.addPrize(new Prize('星界碎塊', 35));

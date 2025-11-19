@@ -31,7 +31,7 @@ fourthRow.addPrize(new Prize('星靈羈絆寶石', 33.494, 3));
 fourthRow.addPrize(new Prize('服飾‧殺星男爵傑森(男)(粉金)', 0.5));
 fourthRow.addPrize(new Prize('手染服飾‧萬聖可愛女巫(女)(粉金)', 0.5));
 fourthRow.addPrize(new Prize('四階月能精魄禮盒', 0.506));
-fourthRow.addPrize(new Prize('掉寶+5護符', 35));
+fourthRow.addPrize(new Prize('掉寶+4護符', 35));
 
 const fifthRow = new PrizePool();
 fifthRow.addPrize(new Prize('星界碎塊', 35));
