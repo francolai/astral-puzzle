@@ -892,6 +892,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47018-%E6%89%8B%E6%9F%93%E9%AB%AE%E9%A3%BE%E6%99%82%E5%85%89%E4%BB%99%E5%A2%83%E7%B7%9E%E5%B8%B6',
     quality: '永恆',
   },
+  '武器‧奏鳴樂聲魔槍(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W43701.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57976-%E6%AD%A6%E5%99%A8%E5%A5%8F%E9%B3%B4%E6%A8%82%E8%81%B2%E9%AD%94%E6%A7%8D',
+    quality: '神話',
+  },
+  '武器‧交響樂聲魔槍(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W43801.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57977-%E6%AD%A6%E5%99%A8%E4%BA%A4%E9%9F%BF%E6%A8%82%E8%81%B2%E9%AD%94%E6%A7%8D',
+    quality: '神話',
+  },
+  '武器‧奏鳴樂聲魔槍(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W43701.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57978-%E6%AD%A6%E5%99%A8%E5%A5%8F%E9%B3%B4%E6%A8%82%E8%81%B2%E9%AD%94%E6%A7%8D',
+    quality: '永恆',
+  },
+  '武器‧交響樂聲魔槍(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W43801.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57979-%E6%AD%A6%E5%99%A8%E4%BA%A4%E9%9F%BF%E6%A8%82%E8%81%B2%E9%AD%94%E6%A7%8D',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1286,6 +1310,12 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/60957-2025%E6%94%B6%E8%97%8F%E5%93%81%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92ii',
     quality: '神話',
   },
+  '2025收藏品自選禮盒III': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00377.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64992-2025%E6%94%B6%E8%97%8F%E5%93%81%E8%87%AA%E9%81%B8%E7%A6%AE%E7%9B%92iii',
+    quality: '神話',
+  },
   諾諾蒼誓召喚法陣自選包: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00014.png',
     dataURL:
@@ -1304,10 +1334,22 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/64014-%E4%BA%94%E9%9A%8E%E6%98%9F%E8%83%BD%E7%B2%BE%E9%AD%84%E9%9A%A8%E6%A9%9F%E7%A6%AE%E7%9B%92',
     quality: '神話',
   },
+  六階星能精魄隨機禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80045.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64026-%E5%85%AD%E9%9A%8E%E6%98%9F%E8%83%BD%E7%B2%BE%E9%AD%84%E9%9A%A8%E6%A9%9F%E7%A6%AE%E7%9B%92',
+    quality: '永恆',
+  },
   四階月能精魄禮盒: {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/64983-%E5%9B%9B%E9%9A%8E%E6%9C%88%E8%83%BD%E7%B2%BE%E9%AD%84%E7%A6%AE%E7%9B%92',
+    quality: '神話',
+  },
+  五階月能精魄禮盒: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I80046.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/64090-%E4%BA%94%E9%9A%8E%E6%9C%88%E8%83%BD%E7%B2%BE%E9%AD%84%E7%A6%AE%E7%9B%92',
     quality: '神話',
   },
   二階日能精魄禮盒: {
