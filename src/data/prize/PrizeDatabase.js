@@ -916,6 +916,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/57979-%E6%AD%A6%E5%99%A8%E4%BA%A4%E9%9F%BF%E6%A8%82%E8%81%B2%E9%AD%94%E6%A7%8D',
     quality: '永恆',
   },
+  '武器‧熱潮科技之音(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WF2801.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/58007-%E6%AD%A6%E5%99%A8%E7%86%B1%E6%BD%AE%E7%A7%91%E6%8A%80%E4%B9%8B%E9%9F%B3',
+    quality: '神話',
+  },
+  '武器‧冰炫科技之音(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WF2901.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/58008-%E6%AD%A6%E5%99%A8%E5%86%B0%E7%82%AB%E7%A7%91%E6%8A%80%E4%B9%8B%E9%9F%B3',
+    quality: '神話',
+  },
+  '武器‧熱潮科技之音(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WF2801.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/58009-%E6%AD%A6%E5%99%A8%E7%86%B1%E6%BD%AE%E7%A7%91%E6%8A%80%E4%B9%8B%E9%9F%B3',
+    quality: '永恆',
+  },
+  '武器‧冰炫科技之音(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WF2901.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/58010-%E6%AD%A6%E5%99%A8%E5%86%B0%E7%82%AB%E7%A7%91%E6%8A%80%E4%B9%8B%E9%9F%B3',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1886,6 +1910,48 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/W53302.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47306-%E7%8B%99%E6%93%8A%E4%B9%8B%E7%9C%BC',
+    quality: '神話',
+  },
+  戰熊利爪: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00999.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47319-%E6%88%B0%E7%86%8A%E5%88%A9%E7%88%AA',
+    quality: '神話',
+  },
+  戰熊尖牙: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00641.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47320-%E6%88%B0%E7%86%8A%E5%B0%96%E7%89%99',
+    quality: '神話',
+  },
+  神木之種: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00294.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47323-%E7%A5%9E%E6%9C%A8%E4%B9%8B%E7%A8%AE',
+    quality: '神話',
+  },
+  千手神木: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01244.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47322-%E5%8D%83%E6%89%8B%E7%A5%9E%E6%9C%A8',
+    quality: '神話',
+  },
+  '82年拉菲': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00718.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47325-82%E5%B9%B4%E6%8B%89%E8%8F%B2',
+    quality: '神話',
+  },
+  土耳其火雞: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00313.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47326-%E5%9C%9F%E8%80%B3%E5%85%B6%E7%81%AB%E9%9B%9E',
+    quality: '神話',
+  },
+  煙燻起司: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01641.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47327-%E7%85%99%E7%87%BB%E8%B5%B7%E5%8F%B8',
     quality: '神話',
   },
   JackPot: {
