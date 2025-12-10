@@ -940,6 +940,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/58010-%E6%AD%A6%E5%99%A8%E5%86%B0%E7%82%AB%E7%A7%91%E6%8A%80%E4%B9%8B%E9%9F%B3',
     quality: '永恆',
   },
+  '背飾‧狂歡拉霸機(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60310.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57983-%E8%83%8C%E9%A3%BE%E7%8B%82%E6%AD%A1%E6%8B%89%E9%9C%B8%E6%A9%9F',
+    quality: '神話',
+  },
+  '背飾‧星彩拉霸機(金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60309.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57982-%E8%83%8C%E9%A3%BE%E6%98%9F%E5%BD%A9%E6%8B%89%E9%9C%B8%E6%A9%9F',
+    quality: '神話',
+  },
+  '背飾‧狂歡拉霸機(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60310.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57985-%E8%83%8C%E9%A3%BE%E7%8B%82%E6%AD%A1%E6%8B%89%E9%9C%B8%E6%A9%9F',
+    quality: '永恆',
+  },
+  '背飾‧星彩拉霸機(粉金)': {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/K60309.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/57984-%E8%83%8C%E9%A3%BE%E6%98%9F%E5%BD%A9%E6%8B%89%E9%9C%B8%E6%A9%9F',
+    quality: '永恆',
+  },
   '髮飾‧球球頑皮海豹(粉金)': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/K30076.png',
     dataURL:
@@ -1936,6 +1960,30 @@ const PrizeDatabase = {
       'https://www.astraltaledb.com/tw/item/47322-%E5%8D%83%E6%89%8B%E7%A5%9E%E6%9C%A8',
     quality: '神話',
   },
+  雷光核: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00174.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47333-%E9%9B%B7%E5%85%89%E6%A0%B8',
+    quality: '神話',
+  },
+  風準之羽: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I01811.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47336-%E9%A2%A8%E6%BA%96%E4%B9%8B%E7%BE%BD',
+    quality: '神話',
+  },
+  魂鳴核: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I00308.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47334-%E9%AD%82%E9%B3%B4%E6%A0%B8',
+    quality: '神話',
+  },
+  羽牙項鍊: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/A05015.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47337-%E7%BE%BD%E7%89%99%E9%A0%85%E9%8D%8A',
+    quality: '神話',
+  },
   '82年拉菲': {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I00718.png',
     dataURL:
@@ -1952,6 +2000,24 @@ const PrizeDatabase = {
     imageURL: 'https://cdn.astraltaledb.com/images/icons/I01641.png',
     dataURL:
       'https://www.astraltaledb.com/tw/item/47327-%E7%85%99%E7%87%BB%E8%B5%B7%E5%8F%B8',
+    quality: '神話',
+  },
+  星光麥克風: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/WB6801.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47339-%E6%98%9F%E5%85%89%E9%BA%A5%E5%85%8B%E9%A2%A8',
+    quality: '神話',
+  },
+  海之亡鐮: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/W15901.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47340-%E6%B5%B7%E4%B9%8B%E4%BA%A1%E9%90%AE',
+    quality: '神話',
+  },
+  冬雪水晶: {
+    imageURL: 'https://cdn.astraltaledb.com/images/icons/I02004.png',
+    dataURL:
+      'https://www.astraltaledb.com/tw/item/47341-%E5%86%AC%E9%9B%AA%E6%B0%B4%E6%99%B6',
     quality: '神話',
   },
   JackPot: {
